@@ -23,9 +23,9 @@
 								<li class="active"><a href="index.php">Home</a></li>
 								<li><a href="about.php">About Us</a></li>
 								<li class="dropdown menu__item menu__item--current">
-									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
+									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patient<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="codes.php">Short Codes</a></li>
+										<li><a href="emergency_form.php">Emergency Admit</a></li>
 										<li><a href="icons.php">Icons</a></li>
 									</ul>
 								</li>
