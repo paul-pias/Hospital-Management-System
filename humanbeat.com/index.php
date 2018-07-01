@@ -91,25 +91,29 @@
 			<div class="app-w3">
 				<h4>Book Your Appointment Now</h4>
 				<div class="app-sub-w3">
-					<form action="#" method="post">
-						<input type="text" name="Patient Name" placeholder="Patient Name" required=""/>
-						<div class="ag-w3">
-							<li class="dropdown menu__item">
-								<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
-								<ul class="dropdown-menu">
+					<form action="func.php" method="post">
+						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
+
+									<select class="form-control" name="departments">
+									<option></option>
+									<option>Cardiology</option>
+									<option>Ophthalmology</option>
+									<option>Neurology</option>
+									<option>Psychology</option>
+									<option>Dermatology</option>
+								</select>
+									<!--
 									<li><a href="#">Cardiology</a></li>
 									<li><a href="#">Ophthalmology</a></li>
 									<li><a href="#">Neurology</a></li>
 									<li><a href="#">Psychology</a></li>
-									<li><a href="#">Dermatology</a></li>
-								</ul>
-							</li>
-						</div>
+									<li><a href="#">Dermatology</a></li> -->
+
 
 
 						<input  id="datepicker" name="date" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
-						<input type="text" id="timepicker" name="Time" class="timepicker form-control" value="Hrs:Min">
-						<input type="submit" value="Make A Appointment">
+						<input type="text" id="timepicker" name="time" class="timepicker form-control" value="Hrs:Min">
+						<input type="submit" name="appointment" value="Make A Appointment">
 					</form>
 				</div>
 			</div>
