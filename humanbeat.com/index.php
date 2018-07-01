@@ -26,7 +26,7 @@
 									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patient<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="emergency_form.php">Emergency Admit</a></li>
-										<li><a href="icons.php">Icons</a></li>
+										<li><a href="patient_registration.php">Patient Registration</a></li>
 									</ul>
 								</li>
 								<li><a href="gallery.php">Gallery</a></li>
@@ -93,8 +93,9 @@
 				<div class="app-sub-w3">
 					<form action="func.php" method="post">
 						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
-
-									<select class="form-control" name="departments">
+						<div class="ag-w3">
+                  <a >Departments </a>
+									<select  class="form-control" name="departments" aria-haspopup="true"  aria-expanded="false">
 									<option></option>
 									<option>Cardiology</option>
 									<option>Ophthalmology</option>
@@ -102,13 +103,7 @@
 									<option>Psychology</option>
 									<option>Dermatology</option>
 								</select>
-									<!--
-									<li><a href="#">Cardiology</a></li>
-									<li><a href="#">Ophthalmology</a></li>
-									<li><a href="#">Neurology</a></li>
-									<li><a href="#">Psychology</a></li>
-									<li><a href="#">Dermatology</a></li> -->
-
+						</div>
 
 
 						<input  id="datepicker" name="date" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
