@@ -48,7 +48,7 @@
 				<div class="logo-w3l">
 					<i class="fa fa-stethoscope" aria-hidden="true"></i>
 				</div>
-				<h1><a href="index.html">Cube Hospital<span>Best Care For you</span></a></h1>
+				<h1><a href="index.html">HUMAN BEAT<span>Best Care For you</span></a></h1>
 			</div>
 			<div class="col-md-4 ph-agile">
 				<p><i class="fa fa-phone" aria-hidden="true"></i><span>+88 02 28 28 85</span></p>
@@ -305,7 +305,7 @@
 						<div class="logo-w3l">
 							<i class="fa fa-stethoscope" aria-hidden="true"></i>
 						</div>
-						<h2><a href="index.html">Cube Hospital<span>Best care For you</span></a></h2>
+						<h2><a href="index.html">HUMAN BEAT<span>Best care For you</span></a></h2>
 					</div>
 				</div>
 				<div class="col-md-4 ftr-grid fg2">
@@ -348,9 +348,7 @@
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
-			<div class="copyrights">
-				<p>&copy; 2018 Cube Hospital. All Rights Reserved  </p>
-			</div>
+			
 		</div>
 	</div>
 </div>
