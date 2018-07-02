@@ -26,10 +26,16 @@
 									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patient<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="emergency_form.php">Emergency Admit</a></li>
-										<li><a href="patient_registration.php">Patient Registration</a></li>
+										<li><a href="icons.php">Icons</a></li>
 									</ul>
 								</li>
-								<li><a href="gallery.php">Gallery</a></li>
+								<li class="dropdown menu__item menu__item--current">
+									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doctors<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="doctors_login.php">Doctors Login</a></li>
+										<li><a href="doctors_information.php">Doctors Information</a></li>
+									</ul>
+								</li>
 								<li><a href="mail.php">Mail Us</a></li>
 							</ul>
 						</nav>
@@ -41,10 +47,10 @@
 				<div class="logo-w3l">
 					<i class="fa fa-stethoscope" aria-hidden="true"></i>
 				</div>
-				<h1><a href="index.php">Therapeutic<span>Care For you</span></a></h1>
+				<h1><a href="index.php">Human Beat<span>Care For you</span></a></h1>
 			</div>
 			<div class="col-md-4 ph-agile">
-				<p><i class="fa fa-phone" aria-hidden="true"></i><span>+00 28 28 28 85</span></p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i><span>+8801740284027</span></p>
 			</div>
 			<div class="clearfix"> </div>
 			<!-- banner-text -->
@@ -93,9 +99,8 @@
 				<div class="app-sub-w3">
 					<form action="func.php" method="post">
 						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
-						<div class="ag-w3">
-                  <a >Departments </a>
-									<select  class="form-control" name="departments" aria-haspopup="true"  aria-expanded="false">
+
+									<select class="form-control" name="departments">
 									<option></option>
 									<option>Cardiology</option>
 									<option>Ophthalmology</option>
@@ -103,7 +108,13 @@
 									<option>Psychology</option>
 									<option>Dermatology</option>
 								</select>
-						</div>
+									<!--
+									<li><a href="#">Cardiology</a></li>
+									<li><a href="#">Ophthalmology</a></li>
+									<li><a href="#">Neurology</a></li>
+									<li><a href="#">Psychology</a></li>
+									<li><a href="#">Dermatology</a></li> -->
+
 
 
 						<input  id="datepicker" name="date" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
@@ -128,7 +139,7 @@
 					<div class="welcome-img">
 						<img src="images/img1.jpg" class="img-responsive zoom-img" alt=""/>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat</p>
+					<p>In addition to offering traditional and established medical care services, Strong is distinguished with its tertiary and quaternary services. This means Strong has the personnel and facilities to provide advanced medical inquiry and treatments that are not widely accessible in this region.</p>
 
 				</div>
 				<div class="col-md-6 welcome-right">
@@ -210,17 +221,17 @@
 							<div class="icons-w3">
 								<i class="fa fa-user-md" aria-hidden="true"></i>
 							</div>
-								<h4>Review service</h4>
+								<h4>Health Services For Our Region</h4>
 								<span></span>
-								<p>esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Humanbeat offering a wide range of quality healthcare services for the people of Bangladesh</p>
 						</div>
 						<div class="col-md-3 feature-grid">
 							<div class="icons-w3">
 								<i class="fa fa-medkit" aria-hidden="true"></i>
 							</div>
-								<h4>Choose best practice</h4>
+								<h4>Find A Consultant</h4>
 								<span></span>
-								<p>esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Find a specialist health consultant to get better treatment</p>
 						</div>
 						<div class="col-md-3 feature-grid">
 							<div class="icons-w3">
@@ -228,7 +239,7 @@
 							</div>
 								<h4>Book appointment</h4>
 								<span></span>
-								<p>esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p>Book an appointment with your preferred doctor at medical centres all over Bangladesh</p>
 						</div>
 						<div class="col-md-3 feature-grid">
 							<div class="icons-w3">
@@ -236,7 +247,7 @@
 							</div>
 								<h4>Medical professionals</h4>
 								<span></span>
-								<p>esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+								<p> A wide variety of doctors are trained to provide special type of health care services</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -252,21 +263,21 @@
 						       <div id="owl-demo" class="owl-carousel">
 					                 <div class="item-owl">
 					                		<div class="test-review wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-											   <p><img src="images/left-quotes.png" alt=""> Polite sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<img src="images/right-quotes.png" alt=""></p>
+											   <p><img src="images/left-quotes.png" alt=""> "Efficiency from all staff from the car park attendant right through to the nursing staff and doctors. A pleasant caring manner makes such a difference when you are receiving scary treatment. I cannot fault the Cromwell experience. Thank you."<img src="images/right-quotes.png" alt=""></p>
 						                	  <img src="images/tt2.jpg" class="img-responsive" alt=""/>
 											  <h5>Henry</h5>
 					                	    </div>
 					                </div>
 					                 <div class="item-owl">
 					                	<div class="test-review wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-										 <p> <img src="images/left-quotes.png" alt="">Polite sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<img src="images/right-quotes.png" alt=""></p>
+										 <p> <img src="images/left-quotes.png" alt="">"The efficiency of all the staff in out-patients and on the ward and in theatres. Everyone I have been treated and nursed by has been charming and excellent at their job. The food and service is good too - every comfort and consideration of the patient - both day and night is taken care of superbly."<img src="images/right-quotes.png" alt=""></p>
 						                	<img src="images/tt1.jpg" class="img-responsive" alt=""/>
 											 <h5>Smith</h5>
 					                	</div>
 					                </div>
 					                 <div class="item-owl">
 					                	<div class="test-review wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-										     <p><img src="images/left-quotes.png" alt=""> Polite sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <img src="images/right-quotes.png" alt=""></p>
+										     <p><img src="images/left-quotes.png" alt=""> "Very well organised. Very tidy. Friendly staff. Prompt attention. Consultants, sisters and nurses and other staff of high standard. Take a keen interest in patients. Very helpful." <img src="images/right-quotes.png" alt=""></p>
 						                	<img src="images/tt3.jpg" class="img-responsive" alt=""/>
 											 <h5>Steave</h5>
 					                	</div>
