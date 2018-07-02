@@ -20,20 +20,27 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav class="stroke">
 							<ul class="nav navbar-nav">
-								<li><a href="index.php">Home</a></li>
-								<li class="active"><a href="about.php">About Us</a></li>
+								<li class="active"><a href="index.php">Home</a></li>
+								<li><a href="about.php">About Us</a></li>
 								<li class="dropdown menu__item menu__item--current">
-									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
+									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patient<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="codes.php">Short Codes</a></li>
-										<li><a href="icons.php">Icons</a></li>
+										<li><a href="emergency_form.php">Emergency Admit</a></li>
+										<li><a href="patient_registration.php">Patient Registration</a></li>
 									</ul>
 								</li>
-								<li><a href="gallery.php">Gallery</a></li>
+								<li class="dropdown menu__item menu__item--current">
+									<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doctors<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="doctors_login.php">Doctors Login</a></li>
+										<li><a href="doctors_information.php">Doctors Information</a></li>
+									</ul>
+								</li>
 								<li><a href="mail.php">Mail Us</a></li>
 							</ul>
 						</nav>
 					</div>
+					
 					<!-- /.navbar-collapse -->
 				</nav>
 			</div>
@@ -41,10 +48,10 @@
 				<div class="logo-w3l">
 					<i class="fa fa-stethoscope" aria-hidden="true"></i>
 				</div>
-				<h1><a href="index.html">Therapeutic<span>Care For you</span></a></h1>
+				<h1><a href="index.html">HUMAN BEAT<span>Best Care For you</span></a></h1>
 			</div>
 			<div class="col-md-4 ph-agile">
-				<p><i class="fa fa-phone" aria-hidden="true"></i><span>+00 28 28 28 85</span></p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i><span>+88 02 28 28 85</span></p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -64,7 +71,7 @@
 					<div class="welcome-img">
 						<img src="images/img1.jpg" class="img-responsive zoom-img" alt=""/>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat</p>
+					<p> In addition to offering traditional and established medical care services, Strong is distinguished with its tertiary and quaternary services. This means Strong has the personnel and facilities to provide advanced medical inquiry and treatments that are not widely accessible in this region.</p>
 
 				</div>
 				<div class="col-md-6 welcome-right">
@@ -138,6 +145,7 @@
 <!-- //what-we-do -->
 
 <!-- team -->
+<!--
 	<div class="jarallax team">
 		<div class="container">
 			<div class="team-heading">
@@ -204,6 +212,7 @@
 			</div>
 		</div>
 	</div>
+-->
 <!-- //team -->
 
 <!-- News -->
@@ -215,24 +224,24 @@
 			<div class="w3l-event-grids">
 				<div class="col-md-6 w3l-event-grid">
 					<div class="w3l-event-img">
-						<a href="single.html"><img src="images/ne1.jpg" alt="" /></a>
+						<a href=" "><img src="images/ne1.jpg" alt="" /></a>
 					</div>
 					<div class="news-grid-info">
-						<a href="single.html">Lorem ipsum dolor sit amet</a>
-						<h5>05th November 2016</h5>
-						<p>Etiam ex lorem cursus vitae placerat suscipit dapibus tortor sed nec augue vitae placerat suscipit dapibus tortor sed nec augue enim rhoncus ultricies eros interdum aliquam eros iaculis id.</p>
-						<a href="single.html" class="re-w3">Read More</a>
+						<a href=" ">Our latest innovation</a>
+						<h5>1st July 2018</h5>
+						<p> In addition to offering traditional and established medical care services, Strong is distinguished with its tertiary and quaternary services. This means Strong has the personnel and facilities to provide advanced medical inquiry and treatments that are not widely accessible in this region.</p>
+						<a href=" " class="re-w3">Read More</a>
 					</div>
 				</div>
 				<div class="col-md-6 w3l-event-grid">
 					<div class="w3l-event-img">
-						<a href="single.html"><img src="images/ne2.jpg" alt="" /></a>
+						<a href=" "><img src="images/ne2.jpg" alt="" /></a>
 					</div>
 					<div class="news-grid-info">
-						<a href="single.html">consectetur adipiscing elit</a>
-						<h5>12th December 2016</h5>
-						<p>Etiam ex lorem cursus vitae placerat suscipit dapibus tortor sed nec augue vitae placerat suscipit dapibus tortor sed nec augue enim rhoncus ultricies eros interdum aliquam eros iaculis id.</p>
-						<a href="single.html" class="re-w3">Read More</a>
+						<a href=" ">Success in Surgery</a>
+						<h5>1st July 2018</h5>
+						<p> In addition to offering traditional and established medical care services, Strong is distinguished with its tertiary and quaternary services. This means Strong has the personnel and facilities to provide advanced medical inquiry and treatments that are not widely accessible in this region.</p>
+						<a href=" " class="re-w3">Read More</a>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -296,7 +305,7 @@
 						<div class="logo-w3l">
 							<i class="fa fa-stethoscope" aria-hidden="true"></i>
 						</div>
-						<h2><a href="index.html">Therapeutic<span>Care For you</span></a></h2>
+						<h2><a href="index.html">HUMAN BEAT<span>Best care For you</span></a></h2>
 					</div>
 				</div>
 				<div class="col-md-4 ftr-grid fg2">
@@ -315,7 +324,7 @@
 							<i class="fa fa-phone" aria-hidden="true"></i>
 						</div>
 						<div class="ftr-text">
-							<p>+1 (512) 154 8176</p>
+							<p>+88 02 154 8176</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -339,9 +348,7 @@
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
-			<div class="copyrights">
-				<p>&copy; 2017 Therapeutic. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-			</div>
+			
 		</div>
 	</div>
 </div>
