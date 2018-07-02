@@ -17,7 +17,7 @@
 						<div class="logo-w3l">
 							<i class="fa fa-stethoscope" aria-hidden="true"></i>
 						</div>
-						<h2><a href="index.php">Therapeutic<span>Care For you</span></a></h2>
+						<h2><a href="index.html">Therapeutic<span>Care For you</span></a></h2>
 					</div>
 				</div>
 				<div class="col-md-4 ftr-grid fg2">
@@ -27,7 +27,7 @@
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
 						</div>
 						<div class="ftr-text">
-							<p>Dhaka,Bangladesh</p>
+							<p>Lorem ipsum dolor sit amet.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -36,7 +36,7 @@
 							<i class="fa fa-phone" aria-hidden="true"></i>
 						</div>
 						<div class="ftr-text">
-							<p>+8801740284027</p>
+							<p>+1 (512) 154 8176</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -45,7 +45,7 @@
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</div>
 						<div class="ftr-text">
-							<p><a href="info@humanbeat.com">info@humanbeat.com</a></p>
+							<p><a href="mailto:info@example.com">info@example.com</a></p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -60,7 +60,9 @@
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
-			
+			<div class="copyrights">
+				<p>&copy; 2017 Therapeutic. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			</div>
 		</div>
 	</div>
 </div>

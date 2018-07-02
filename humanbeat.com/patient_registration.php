@@ -159,11 +159,11 @@
 							</div>
 						</li>
 						<li>
-							<label class="form-label1">
+							<label class="form-label1" name="textarea">
 								Mention the details of previous consultings with us.
 							</label>
 							<div class="form-input2">
-								<textarea rows="5" cols="20" name="textarea"></textarea>
+								<textarea rows="5" cols="20"></textarea>
 
 							</div>
 						</li>
