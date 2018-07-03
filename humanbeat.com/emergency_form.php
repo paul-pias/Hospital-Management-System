@@ -1,29 +1,21 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Medical Emergency Form a Responsive Widget Template :: w3layouts</title>
+<title>HUMAN BEAT || Emergency Admit</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Medical Emergency Form template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs Sign up Web Templates,
- Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
+<meta name="keywords" >
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!-- Custom Theme files -->
 <link href="css/style_1.css" rel='stylesheet' type='text/css' />
 <!--fonts-->
 <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 <!--//fonts-->
+
 </head>
 <body>
 <!--background-->
-<h1> Medical Emergency Form</h1>
+<h1>Emergency Admission Form</h1>
     <div class="bg-agile">
 	<div class="book-appointment">
 	<h2>Medical Information</h2>
@@ -50,7 +42,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input  id="datepicker1" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
 					</div>
 					<div class="gaps">
-						<p>Hospital Preference</p>
+						<p>Patient ID</p>
 						<input type="text" name="hpreference" placeholder="" required=""/>
 					</div>
 
@@ -66,11 +58,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 		<div class="right-agileinfo same">
 					<div class="gaps">
-						<p>Relationship</p>
+						<p>Relationship Status</p>
 						<input type="text" name="relationship" placeholder="" required=""/>
 					</div>
 					<div class="gaps">
-						<p>Address</p>
+						<p>Current Address</p>
 						<textarea id="message" name="address" placeholder="" title="Please enter Your Comments"></textarea>
 						</div>
 
@@ -84,6 +76,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<option>Rajshahi</option>
 							<option>Khulna</option>
 							<option>Barishal</option>
+              <option>Sylhet</option>
+              <option>MymenSingh</option>
+              <option>Brahmanbaria</option>
+              <option>Khustia</option>
+              <option>Comilla</option>
+              <option>Gazipur</option>
+              <option>Nilphamari</option>
+
 						</select>
 					</div>
 
@@ -97,11 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</form>
 		</div>
    </div>
-   <!--copyright-->
-			<div class="copy w3ls">
-		       <p>&copy; 2017. Medical Emergency Form . All Rights Reserved  | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-	        </div>
-		<!--//copyright-->
+
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 		<!-- Calendar -->
 				<link rel="stylesheet" href="css/jquery-ui.css" />
