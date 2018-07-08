@@ -1,2 +1,2 @@
 # CSE482
-Developing a Laravel Based Website on Hospital Management System
+Developing a Website on Hospital Management System.
