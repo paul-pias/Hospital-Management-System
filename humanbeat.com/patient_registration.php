@@ -15,8 +15,8 @@
 </head>
 <body>
 	<div class="w3ls-banner">
-	<div class="heading">
-		<h1>New Patient Registration</h1>
+	<div class="heading" >
+		<h1><a href="index.php">New Patient Registration </a></h1>
 	</div>
 		<div class="container">
 			<div class="heading">
@@ -31,7 +31,7 @@
 								<span class="form-required"> * </span>
 							</label>
 							<div class="form-input">
-								<input type="text" name="patient_name" placeholder="Enter Patients Name" required >
+								<input type="text" name="patient_name" placeholder="Enter Patients Name" required  pattern="^[A-z . a-z]+">
 							</div>
 						</li>
 						<li>
@@ -54,7 +54,7 @@
 							   <span class="form-required"> * </span>
 							</label>
 							<div class="form-input">
-								<input type="text" name="mobile_number" placeholder="Mobile Number" required >
+								<input type="text" name="mobile_number" placeholder="Mobile Number" required pattern="^[0-9]+">
 							</div>
 						</li>
 						<li>
@@ -119,7 +119,7 @@
 									<label class="form-sub-label1"> Month </label>
 								</span>
 								<span class="form-sub-label">
-									<input type="text" class="year" name="year" placeholder=" Enter Year" required>
+									<input type="text" class="year" name="year" placeholder=" Enter Year" required pattern="^[0-9]+">
 									<label class="form-sub-label1"> Year </label>
 								</span>
 							</div>
@@ -154,7 +154,7 @@
 							   <span class="form-required"> * </span>
 							</label>
 							<div class="form-input">
-								<input type="email" name="email" placeholder="myname@example.com" required>
+								<input type="email" name="email" placeholder="myname@example.com" required pattern="^[a-z0-9@a-z.a-z]+">
 
 							</div>
 						</li>
