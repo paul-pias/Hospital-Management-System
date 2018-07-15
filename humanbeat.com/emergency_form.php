@@ -15,7 +15,6 @@
 </head>
 <body>
 <!--background-->
-<h1>Emergency Admission Form</h1>
     <div class="bg-agile">
 	<div class="book-appointment">
 	<h2>Medical Information</h2>
