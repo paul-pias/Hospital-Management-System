@@ -60,8 +60,33 @@ if(isset($_POST['reg_submit']))
   $test4 = $_POST['test4'];
   $test5 = $_POST['test5'];
   $test6 = $_POST['test6'];
+  $count=0;
+  $check=mysqli_query($con, "select * from patient_registration where mobile_number='$_POST[mobile_number]'");
+  $count=mysqli_num_rows($check);
 
-  $registration = " insert into patient_registration(patient_name,gender,mobile_number,day,month,year,street_address,city,zipcode,country,email,test1,test2,test3,test4,test5,test6)values('$patient_name','$gender','$mobile_number','$day','$month','$year','$street_address','$city','$zipcode','$country','$email','$test1','$test2','$test3','$test4','$test5','$test6')";
+    if($count>0)
+    {
+      ?>
+      <script type="text/javascript">
+      alert("Already Registered with this Number");
+
+      </script>
+      <?php
+      echo "<script>window.open('patient_registration.php','_self')</script>";
+    }
+    else {
+
+          $registration = " insert into patient_registration(patient_name,gender,mobile_number,day,month,year,street_address,city,zipcode,country,email,test1,test2,test3,test4,test5,test6)values('$patient_name','$gender','$mobile_number','$day','$month','$year','$street_address','$city','$zipcode','$country','$email','$test1','$test2','$test3','$test4','$test5','$test6')";
+
+          ?>
+          <script type="text/javascript">
+          alert("Successfully registered");
+          </script>
+          <?php
+
+        }
+
+
   $registration_result = mysqli_query($con,$registration);
 
   if($registration_result)
