@@ -1,6 +1,7 @@
 <?php
 $con=mysqli_connect("localhost", "root","","hospital_management");
 
+//Emergency Registration
 if(isset($_POST['pat_submit']))
 {
   $fname=$_POST['fname'];
@@ -25,7 +26,7 @@ if(isset($_POST['pat_submit']))
   }
 
 }
-
+//Booking
 if(isset($_POST['appointment']))
 {
   $patient_name=$_POST['patient_name'];
@@ -40,7 +41,7 @@ if(isset($_POST['appointment']))
     echo "<script>window.open('index.php','_self')</script>";
   }
 }
-
+//Patient Registration
 if(isset($_POST['reg_submit']))
 {
   $patient_name = $_POST['patient_name'];
@@ -93,6 +94,7 @@ if(isset($_POST['reg_submit']))
   {
     echo "<script>window.open('index.php','_self')</script>";
   }
+
 
 
 
