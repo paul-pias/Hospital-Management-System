@@ -27,6 +27,7 @@
 									<ul class="dropdown-menu">
 										<li><a href="emergency_form.php">Emergency Admit</a></li>
 										<li><a href="patient_registration.php">Patient Registration</a></li>
+										<li><a href="patient_login.php">Patient Login</a></li>
 									</ul>
 								</li>
 								<li class="dropdown menu__item menu__item--current">

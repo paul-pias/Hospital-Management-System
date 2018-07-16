@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
 	padding:0;
 	margin:0;
@@ -29,9 +23,9 @@ input[type="button"],input[type="submit"],.contact-form input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	font-family: 'Convergence', sans-serif;
-}	
+}
 p{
 	margin:0;
 	font-family: 'ABeeZee', sans-serif;
@@ -198,7 +192,7 @@ nav.fill ul li a:hover:after {
     line-height: 2.5;
 	display: inline-block;
 }
-/*-- banner-text --*/ 
+/*-- banner-text --*/
 .header-w3layouts{
     position: absolute;
     top: 0;
@@ -249,7 +243,7 @@ nav.fill ul li a:hover:after {
 	color:#fff;
 }
 .agileits_w3layouts_more a:before, .agileits_w3layouts_more a:after {
-    content: '';
+    content: '\\images\logo.png';
     background: #fff;
     width: 45%;
     height: 2px;
@@ -557,11 +551,11 @@ a.dropdown-toggle.menu__link {
 .welcome-img {
     overflow: hidden;
 	-webkit-box-shadow: 0px 0px 10px 0px #656060;
-	-moz-box-shadow: 0px 0px 10px 0px #656060; 
+	-moz-box-shadow: 0px 0px 10px 0px #656060;
     box-shadow: 0px 0px 10px 0px #656060;
 }
 .welcome-left .img-responsive {
-    width: 100%; 
+    width: 100%;
 }
 .welcome-left-grids {
     padding: 0;
@@ -587,7 +581,7 @@ a.dropdown-toggle.menu__link {
     padding: 4.06em 0;
     text-align: center;
 	-webkit-transition: .5s all;
-	-moz-transition: .5s all; 
+	-moz-transition: .5s all;
     transition: .5s all;
 	background: #ee4f4f
 }
@@ -606,9 +600,9 @@ a.dropdown-toggle.menu__link {
 }
 .open-hours-left h6 {
     font-size: 1em;
-    color: #f1efef; 
+    color: #f1efef;
 	-webkit-transition: .5s all;
-	-moz-transition: .5s all; 
+	-moz-transition: .5s all;
 	transition: .5s all;
 }
 .open-hours-left:hover h6{
@@ -726,16 +720,16 @@ img.zoom-img:hover{
 }
 /*-- effect-7 css --*/
 .text-desc{
-	position: absolute; 
-	left: 0; 
-	top: 0; 
+	position: absolute;
+	left: 0;
+	top: 0;
 	background: #ee4f4f;
-	height: 100%; 
-	opacity: 0; 
-	width: 100%; 
+	height: 100%;
+	opacity: 0;
+	width: 100%;
 	padding: 20px;
 }
-.port-7{ 
+.port-7{
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -745,14 +739,14 @@ img.zoom-img:hover{
     box-shadow: 0px 0px 12px 0px #969696;
 }
 .port-7 .text-desc{
-	opacity: 0; 
-	transition: 0.5s; 
+	opacity: 0;
+	transition: 0.5s;
 	color: #000;
 }
 .port-7.effect-2 img{
-	transition: 0.5s; 
-	position: relative; 
-	width: 100%; 
+	transition: 0.5s;
+	position: relative;
+	width: 100%;
 	top: 0;
 }
 .port-7.effect-2:hover img{
@@ -760,16 +754,16 @@ img.zoom-img:hover{
 }
 .port-7.effect-2 .text-desc{
 	transform: perspective(600px) rotateX(90deg);
-	transform-origin: top center 0; 
-	width: 100%; 
-	position: absolute; 
-	left: 0; 
-	top: 0; 
-	height: 50%; 
+	transform-origin: top center 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 50%;
 	padding:32px 10px 0;
 }
 .port-7.effect-2:hover .text-desc{
-	opacity: 1; 
+	opacity: 1;
 	transform: perspective(600px) rotateX(0deg);
 	z-index: 99;
 }
@@ -994,7 +988,7 @@ h3.tittle-two{
     color: #ee4f4f;
     text-transform: none;
     margin-top: 0.7em;
-	
+
 }
 .test-review p {
     font-size: 1em;
@@ -1245,14 +1239,14 @@ li.get-w3 a i {
     color: #000000;
     font-size: .9em;
     margin: 1em auto 0;
-    width: 40%;	
+    width: 40%;
 }
 .agileits-team-grids {
     margin: 4em 0 0 0;
 }
 .team-info{
     position: relative;
-    overflow: hidden;	
+    overflow: hidden;
 }
 .team-info img{
 	width:100%;
@@ -1466,7 +1460,7 @@ a.re-w3:hover {
     line-height: 1.4em;
 }
 .opinion form{
-    margin: 1em 0 0 0;	
+    margin: 1em 0 0 0;
 }
 .opinion form input[type="text"], .opinion form input[type="email"] {
     width: 100%;
@@ -1569,7 +1563,7 @@ i.fa.fa-pencil{
     color: #999999;
     font-size: .9em;
     margin: 1em 0 2em 0;
-    line-height: 1.8em;	
+    line-height: 1.8em;
 }
 .blog-left-right-bottom p span{
 	display:block;
@@ -1637,7 +1631,7 @@ i.fa.fa-pencil{
 
 /*-- Short-codes --*/
 .code-banner{
-    padding: 1em 0 2em;	
+    padding: 1em 0 2em;
 }
 .codes-heading {
     text-align: center;
@@ -1677,7 +1671,7 @@ h3.hdg {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;

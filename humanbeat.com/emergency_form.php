@@ -15,11 +15,10 @@
 </head>
 <body>
 <!--background-->
-<h1>Emergency Admission Form</h1>
     <div class="bg-agile">
 	<div class="book-appointment">
 	<h2>Medical Information</h2>
-			<form action="func.php" method="post">
+			<form action="process.php" method="post">
 				<div class="left-agileits-w3layouts same">
 					<div class="gaps">
 						<p>First Name</p>
