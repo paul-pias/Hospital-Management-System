@@ -34,6 +34,18 @@
 								<input type="text" name="patient_name" placeholder="Enter Patients Name" required  pattern="^[A-z . a-z]+">
 							</div>
 						</li>
+
+						<li>
+							<label class="form-label">
+							 Password
+								<span class="form-required"> * </span>
+							</label>
+							<div class="form-input">
+								<input type="text" name="password" placeholder="Enter Password" required  pattern="^[A-z0-9.@_a-z]+">
+							</div>
+						</li>
+
+
 						<li>
 							<label class="form-label">
 							   Gender

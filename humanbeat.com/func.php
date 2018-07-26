@@ -45,6 +45,7 @@ if(isset($_POST['appointment']))
 if(isset($_POST['reg_submit']))
 {
   $patient_name = $_POST['patient_name'];
+  $password = $_POST['password'];
   $gender = $_POST['gender'];
   $mobile_number = $_POST['mobile_number'];
   $day = $_POST['day'];
@@ -77,7 +78,7 @@ if(isset($_POST['reg_submit']))
     }
     else {
 
-          $registration = " insert into patient_registration(patient_name,gender,mobile_number,day,month,year,street_address,city,zipcode,country,email,test1,test2,test3,test4,test5,test6)values('$patient_name','$gender','$mobile_number','$day','$month','$year','$street_address','$city','$zipcode','$country','$email','$test1','$test2','$test3','$test4','$test5','$test6')";
+          $registration = " insert into patient_registration(patient_name,password,gender,mobile_number,day,month,year,street_address,city,zipcode,country,email,test1,test2,test3,test4,test5,test6)values('$patient_name','$password','$gender','$mobile_number','$day','$month','$year','$street_address','$city','$zipcode','$country','$email','$test1','$test2','$test3','$test4','$test5','$test6')";
 
           ?>
           <script type="text/javascript">
