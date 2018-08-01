@@ -89,12 +89,14 @@
   // Initialize and add the map
   function initMap() {
     // The location of Uluru
-    var nsu = {lat: 23.8151, lng: 90.4255};
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 18, center: nsu});
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({position: nsu, map: map});
+		// The location of NSU
+	  var nsu = {lat: 23.8151, lng: 90.4255};
+	  var location_info = " North South University \n Plot 15, Block B, Bashundhara \n Bangladesh ";
+	  // The map, centered at NSU
+	  var map = new google.maps.Map(
+	      document.getElementById('map'), {zoom: 18, center: nsu});
+	  // The marker, positioned at NSU
+	  var marker = new google.maps.Marker({position: nsu, map: map,title:location_info});
   }
       </script>
       <script async defer
