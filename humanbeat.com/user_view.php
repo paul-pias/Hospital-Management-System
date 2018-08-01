@@ -1,3 +1,6 @@
+<?php include_once 'auth/resource/session.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <title>HUMAN BEAT</title>
@@ -51,7 +54,12 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <!-- Profile -->
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
-         <h4 class="w3-center">My Profile</h4>
+         <h4 class="w3-center">
+        <?php if(!isset($_SESSION['username'])):
+          header("location:auth/redirected_page.php");?>
+         <?php else: ?>
+         <p><?php if(isset($_SESSION['username'])) echo $_SESSION['username'];?> <br><a href="auth/logout.php">Logout</a></p>
+         <?php endif ?></h4>
          <p class="w3-center"><img src="/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
          <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>

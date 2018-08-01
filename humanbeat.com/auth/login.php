@@ -1,7 +1,7 @@
 <?php
-include_once 'auth/resource/session.php';
-include_once 'auth/resource/Database.php';
-include_once 'auth/resource/utilities.php';
+include_once 'resource/session.php';
+include_once 'resource/Database.php';
+include_once 'resource/utilities.php';
 if(isset($_POST['loginbtn'])){
 
   //array to hold errors
@@ -29,9 +29,7 @@ if(isset($_POST['loginbtn'])){
       if(password_verify($password, $hashed_password)){
       $_SESSION['id']=$id;
       $_SESSION['username'] = $username;
-      header("location:user_view.php");
-
-
+      header("location:index.php");
     }
     else{
       $result = "<p style='padding:20px; color:red;'>Invalid Usernameor Password</p>";
@@ -58,7 +56,7 @@ if(isset($_POST['loginbtn'])){
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style_login.css" type="text/css" media="all" >
+<link rel="stylesheet" href="../css/style_login.css" type="text/css" media="all" >
 <title> HUMAN BEAT || PATIENT LOGIN </title>
 </head>
 <body>
@@ -105,10 +103,10 @@ if(isset($_POST['loginbtn'])){
 <div class="bottom-container">
   <div class="row">
     <div class="col">
-      <a href="auth/signup.php" style="color:white" class="btn">Sign up</a>
+      <a href="patient_registration.php" style="color:white" class="btn">Sign up</a>
     </div>
     <div class="col">
-      <a href="auth/forgot_password.php" style="color:white" class="btn">Forgot password?</a>
+      <a href="forgot_password.php" style="color:white" class="btn">Forgot password?</a>
     </div>
   </div>
 </div>

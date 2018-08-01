@@ -152,6 +152,21 @@ input[type=submit]:hover {
   padding: 0 50px;
   margin-top: 6px;
 }
+.col-1 {
+  float:center;
+  width: 50%;
+  margin:auto;
+  padding: 0 50px;
+  margin-top: 0px;
+}
+
+.col-2{
+  float: right;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -166,7 +181,7 @@ input[type=submit]:hover {
   left: 50%;
   transform: translate(-50%);
   border: 2px solid #ddd;
-  height: 175px;
+  height: 280px;
 }
 
 /* text inside the vertical line */
