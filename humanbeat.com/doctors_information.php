@@ -1,11 +1,9 @@
-<?php require_once('inc/header.php') ?>
-<body>
-
+<?php include_once('inc/doc_nav_1.php');?>
 <!-- doctors info -->
 	<div id="review" class="jarallax reviews agile-1">
 				<div class="test-monials" id="testimonials">
 					
-					<h3 class="tittle-two">Our Doctors<span></span></h3>
+					<h3 class="tittle-two">Our Specialist Doctors<span></span></h3>
 						<div class="sreen-gallery-cursual">
 						       <div id="owl-demo" class="owl-carousel">
 					                 <div class="item-owl">
