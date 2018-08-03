@@ -1,4 +1,4 @@
-<?php include_once('../inc/doc_nav.php');?>
+<?php include_once('../inc/doc_nav_1.php');?>
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -165,16 +165,16 @@ ul.nav-menu li{
 }
 
 @media only screen and (max-width: 480px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 @media only screen and (max-width: 780px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 #primary, #secondary {
     margin-top:0px !important;
@@ -186,20 +186,20 @@ h3{
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item a {
     line-height: 40px !important;
-    
-    
+
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .mega-menu-row .menu-item a:hover {
-   
+
    background-color: none !important;
-    
+
 }
 
 
 .site-header-main #primary-navigation #menu-main-menu .sub-menu .menu-item a:hover {
    color:#007d9e;
-    
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item .sub-menu li a {
@@ -218,7 +218,7 @@ ul.sub-menu li a:hover{
 
 ul.sub-menu li a{
     border-bottom:1px dashed #ccc !important;
-    
+
 }
 
 .view-all-specialities-button {
@@ -264,7 +264,7 @@ ul.mega-menu-row{
     width: 370px;
 }
 .box .under_box {
-   
+
     width: auto;
 }
 
@@ -320,28 +320,28 @@ ul.sub-menu li a{
 }
 
 .mega-menu .mega-menu-row #menu-item-7337 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7337 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7332 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7332 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7358 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7358 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7784 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7784 a:before{
    left: 30px !important;
@@ -374,7 +374,7 @@ table tbody tr td{
 }
 
 .btn3 a{
-	
+
 	color:#fff;
 }
 
@@ -397,7 +397,7 @@ ul.mega-menu-row ul.sub-menu.sub-menu-has-icons li a::before{
 .wpb_accordion_header {
     background: #1283a4 !important;
     }
-    
+
 .search{
     padding-left:147px !important;
 }
@@ -474,7 +474,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/themes/imedica/vc_templates/js/jquery.bxslider.min.js?ver=7d377b3a13648524ee4545489f630838'></script>
 <link rel='https://api.w.org/' href='http://www.apollodhaka.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.apollodhaka.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" />
 
 <link rel='shortlink' href='http://www.apollodhaka.com/?p=8128' />
 <link rel="alternate" type="application/json+oembed" href="http://www.apollodhaka.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.apollodhaka.com%2Fprofile%2F" />
@@ -483,27 +483,27 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 			jQuery(document).ready(function() {
 				// CUSTOM AJAX CONTENT LOADING FUNCTION
 				var ajaxRevslider = function(obj) {
-				
+
 					// obj.type : Post Type
 					// obj.id : ID of Content to Load
 					// obj.aspectratio : The Aspect Ratio of the Container / Media
 					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
+
 					var content = "<h2>THIS IS SOME TITLE</h2><br/>";
 
 					content += "Type:"+obj.type+"</br>";
-					content += "ID:"+obj.id+"</br>";        
-					content += "Aspect Ratio:"+obj.aspectratio+"</br>";  
-					
+					content += "ID:"+obj.id+"</br>";
+					content += "Aspect Ratio:"+obj.aspectratio+"</br>";
+
 					data = {};
-					
+
 					data.action = 'revslider_ajax_call_front';
 					data.client_action = 'get_slider_html';
 					data.token = '964c1261a5';
 					data.type = obj.type;
 					data.id = obj.id;
 					data.aspectratio = obj.aspectratio;
-					
+
 					// SYNC AJAX REQUEST
 					jQuery.ajax({
 						type:"post",
@@ -513,17 +513,17 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 						async:false,
 						success: function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
-								content = ret.data;								
+								content = ret.data;
 						},
 						error: function(e) {
 							console.log(e);
 						}
 					});
-					
+
 					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
+					 return content;
 				};
-				
+
 				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
 				var ajaxRemoveRevslider = function(obj) {
 					return jQuery(obj.selector+" .rev_slider").revkill();
@@ -534,7 +534,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 					if (jQuery.fn.tpessential != undefined) {
 						clearInterval(extendessential);
 						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined')
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
 							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
 							// func: the Function Name which is Called once the Item with the Post Type has been clicked
 							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
@@ -543,7 +543,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 				},30);
 			});
 		</script>
-		
+
 <!-- Google Webmaster Tools plugin for WordPress -->
 <meta name="google-site-verification" content="rSOccPBeQKfvFpughHvWe00DC4YMxMg8PfGSbuP6Gi4" />
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
@@ -558,21 +558,21 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 							st += "</style>";
 						jQuery("head").append(st);
 					});
-				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>   
+				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
 <body class="singular page page-id-8128 page-template-default group-blog imedica_appear_animation wpb-js-composer js-comp-ver-4.11.2 vc_responsive">
 <script type="text/javascript" src="http://malsup.github.com/chili-1.7.pack.js"></script>
 <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
 <script type="text/javascript">
-jQuery(function($) {    
-$('#menu').cycle({ 
-    fx:     'scrollHorz', 
-    speed:  'fast', 
-    timeout: 0, 
-    next:   '#next2', 
-    prev:   '#prev2' 
-});   
-}); 
+jQuery(function($) {
+$('#menu').cycle({
+    fx:     'scrollHorz',
+    speed:  'fast',
+    timeout: 0,
+    next:   '#next2',
+    prev:   '#prev2'
+});
+});
 </script>
 
 
@@ -593,11 +593,11 @@ $('#menu').cycle({
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
- 
+
   gtag('config', 'UA-110954706-1');
 </script><div id="page" class="container-box imd-full-layout" >
 		<!-- Fixed navbar -->
-	
+
 
 
 	<div class="theme-showcase" role="main">
@@ -623,8 +623,8 @@ $('#menu').cycle({
 
 
 
-    
-                    
+
+
 
 <div class="">
 
@@ -632,7 +632,7 @@ $('#menu').cycle({
 
   <div class="imedica-row">
 
-    
+
 
 
 
@@ -640,21 +640,21 @@ $('#menu').cycle({
 
   <div class="container imedica-container">
 
-    
+
 
         <!-- -------------------------------------------------- For Top Panel ---------------------------------------------------------------------------- -->
 
-    
+
       <div style="background-image:url(../../wp-content/uploads/2015/05/doctor-bg2.jpg); background-repeat:repeat-x; width:100%; height:193px;" class="vc_single_image-wrapper   vc_box_border_grey">
 
-            
-                    
 
-                    
-                    
 
-                    
-                    
+
+
+
+
+
+
 
                     <table border="0" style="width:650px;" align="left"><tr><td width="102px"><img src="http://www.apollodhaka.com/oldsite/consultant/consultant_images/1523097630.jpg" width="100" height="100" style="border:1px solid #0f6d88; margin-top:40px; margin-left:20px;" /></td>
 
@@ -667,17 +667,17 @@ $('#menu').cycle({
 
             </div>
 
-            
-  
 
-  
+
+
+
 
 
 <!---------------------------------------------------- End For Top Panel------------------------------------------------------------------------------>
 
 
 
-    
+
 
 
       <div id="secondary" class="widget-area col-xs-12 col-sm-5 col-md-4 col-lg-3 left"
@@ -685,11 +685,11 @@ $('#menu').cycle({
 	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 		<aside id="text-20" class="widget widget_text"><h3 class="widget-title">OPD Schedule</h3>			<div class="textwidget"></div>
 		</aside>	</div>
-  
-    
-			
-                
-                
+
+
+
+
+
                 Days: Sat-Thurs<br>
 
 Time: 9:00 AM - 5:00 PM<br>
@@ -937,63 +937,63 @@ level-5 (OPD)
                                           </select>
                                             <select name="PDay" size="1" class="textboxBorder" required>
                                               <option value="" selected="selected">Day</option>
-                                              <option 
+                                              <option
               value="01">01</option>
                                               <option value="02">02</option>
-                                              <option 
+                                              <option
               value="03">03</option>
                                               <option value="04">04</option>
-                                              <option 
+                                              <option
               value="05">05</option>
                                               <option value="06">06</option>
-                                              <option 
+                                              <option
               value="07">07</option>
                                               <option value="08">08</option>
-                                              <option 
+                                              <option
               value="09">09</option>
                                               <option value="10">10</option>
-                                              <option 
+                                              <option
               value="11">11</option>
                                               <option value="12">12</option>
-                                              <option 
+                                              <option
               value="13">13</option>
                                               <option value="14">14</option>
-                                              <option 
+                                              <option
               value="15">15</option>
                                               <option value="16">16</option>
-                                              <option 
+                                              <option
               value="17">17</option>
                                               <option value="18">18</option>
-                                              <option 
+                                              <option
               value="19">19</option>
                                               <option value="20">20</option>
-                                              <option 
+                                              <option
               value="21">21</option>
                                               <option value="22">22</option>
-                                              <option 
+                                              <option
               value="23">23</option>
                                               <option value="24">24</option>
-                                              <option 
+                                              <option
               value="25">25</option>
                                               <option value="26">26</option>
-                                              <option 
+                                              <option
               value="27">27</option>
                                               <option value="28">28</option>
-                                              <option 
+                                              <option
               value="29">29</option>
                                               <option value="30">30</option>
-                                              <option 
+                                              <option
               value="31">31</option>
                                             </select>
                                             <select name="PYear" size="1" class="textboxBorder" required>
-                                              <option 
+                                              <option
               value="" selected="selected">Year</option>
-                                              
+
                                               <option value="2015">2015</option>
                                               <option value="2016">2016</option>
 											  <option value="2017">2017</option>
 											  <option value="2018">2018</option>
-                                              
+
                                             </select>
 <br /><br />
 <select required="" style="width:59px;" name="app_hour" id="app_hour">
@@ -1011,20 +1011,20 @@ level-5 (OPD)
               </select><br /><br />
               <textarea placeholder="Purpose" id="purpose" name="purpose" required ></textarea><br /><br />
               <input type="submit" value="Submit" id="button" name="button-appointment"><br /><br />
- 
- </form>   <br /><br><br>            
+
+ </form>   <br /><br><br>
                     <!-- #primary-sidebar -->
 </div><!-- #secondary -->
-           
+
 
             <div id="primary" class="site-content col-xs-9 col-sm-9 col-md-9 col-lg-9 left">
 
 
 
-    
-        
 
-        
+
+
+
 
 
 <!--    <div id="primary" class="site-content "style="">-->
@@ -1035,10 +1035,10 @@ level-5 (OPD)
 
       <div id="content" role="main">
 
-            
 
-              
-               
+
+
+
 
           <div style="text-align: justify; ">
 <p class="MsoNormal">Prof. Dr. AHM Waliul Islam graduated from Rajshahi Medical College. After passing 8th BCS, he joined Government Service. Later he went to Japan under &quot;Monobusho Scholarship&quot; for higher study at Osaka University Medical School and obtained PhD in Cardiology in 1996. After completing 4yrs Post. Graduation courses and had extensive training in Cardiology from the same University. <o:p></o:p></p>
@@ -1052,7 +1052,7 @@ He attended many scientific seminars and symposium as paper presenter, case pres
 In addition, he is a life time member of Bangladesh Cardiac Society, Bangladesh Society of Cardiovascular interventions, American College of Cardiology &amp; Royal College of Physician (Glasgow).&nbsp;</p>
 <p class="MsoNormal">In recognition of his contribution to Research &amp; Academic activities, he has been honored as &quot;Professor&quot; by the Apollo Hospital's Education &amp; Research Foundation.&nbsp;<o:p></o:p></p>
 </div>
-               
+
 
 
       </div>
@@ -1071,7 +1071,7 @@ In addition, he is a life time member of Bangladesh Cardiac Society, Bangladesh 
 
 
 
-    
+
 
 
   </div>
@@ -1112,11 +1112,11 @@ In addition, he is a life time member of Bangladesh Cardiac Society, Bangladesh 
 }(document, 'script', 'facebook-jssdk'));</script><script>jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-accident-and-emergency").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-adulthematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-apollo-cancer-care-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-blood-bank").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracivascularsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracic-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-counselling").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dentalmaxillofacial").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dermaandvener").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-diagradiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dialysis").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-endocrinology-diabetology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ent").bxSlider({mode:"horizontal",speed:16000,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:true,tickerHover:true,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:false,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-entcocochlearimplant").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-fertility-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-gastroenterology-hepatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-genlaparoscopicsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-haematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:2,maxSlides:4,moveSlides:1,slideWidth:400,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-internal-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kidney-transplant-program").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kneecentre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-labmedicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-lithotripsy").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-medical-oncology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neonatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nephrology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurosurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nuclear-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-obstetrics-gynaecology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ophthalmology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-orthopaedics-2").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-surgery-paediatric-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatrics").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-physicalmedicinerehab").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-plasticreconssurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-psychiatry").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-respiratory-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-rheumatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});});</script>
 <script type='text/javascript'>
 	//<![CDATA[
-    jQuery(document).ready(function($) { 
+    jQuery(document).ready(function($) {
     	$('html').MagicLiquidizerTable({ whichelement: 'table', breakpoint: '780', table: '1' })
     })
 	//]]>
-</script> 	
+</script>
 
 		<script id="imedica-masonry-script" type="text/javascript">
 			// Apply Masonry Effect To Blog
@@ -1193,5 +1193,5 @@ var imd_ajax = {"ajax_url":"http:\/\/www.apollodhaka.com\/wp-admin\/admin-ajax.p
 			</div>
 		</div>
 	</div>
-</div> 
+</div>
 </body></html>

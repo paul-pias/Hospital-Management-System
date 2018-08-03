@@ -81,14 +81,16 @@ img.emoji {
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 .tp-caption a{color:#ff7302;text-shadow:none;opacity:0.4;filter:alpha(opacity=40)-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
 </style>
-<link rel='stylesheet' id='tab_slide_StyleSheet-css'  href='http://www.apollodhaka.com/wp-content/plugins/tab-slide/ts.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
+<link rel='stylesheet' id='tab_slide_StyleSheet-css'  href='../css/tab_slid_doc.css' type='text/css' media='all' />
 <link rel='stylesheet' id='js_composer_front-css'  href='http://www.apollodhaka.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.11.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ultimate-style-min-css'  href='http://www.apollodhaka.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.9.4' type='text/css' media='all' />
 <link rel='stylesheet' id='bsf-Defaults-css'  href='http://www.apollodhaka.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
 <link rel='stylesheet' id='bsf-imd-font-awesome-css'  href='http://www.apollodhaka.com/wp-content/uploads/smile_fonts/imd-font-awesome/imd-font-awesome.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css'  href='http://www.apollodhaka.com/wp-content/themes/imedica/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='redux-google-fonts-imedica_opts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C300italic%2C400italic%2C600italic%2C700italic%2C800italic&#038;ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
-<style type='text/css' id='imedica-transparent-header-css'>.imedica_sticky_header .navbar-inverse.header-fixed { background: rgba(0,0,0,1);}</style><style type='text/css' id='imedica-layout-options-css'>.container,.imedica-row{ width: 1170px !important; max-width: 100% !important; }</style><style type='text/css' id='imedica-custom-css'>ul.nav-menu li {
+<style type='text/css' id='imedica-transparent-header-css'>.imedica_sticky_header .navbar-inverse.header-fixed { background: rgba(0,0,0,1);}</style>
+<style type='text/css' id='imedica-layout-options-css'>.container,.imedica-row{ width: 1170px !important; max-width: 100% !important; }</style>
+<style type='text/css' id='imedica-custom-css'>ul.nav-menu li {
    /*  margin-right: -11px !important; */
 }
 
@@ -166,16 +168,16 @@ ul.nav-menu li{
 }
 
 @media only screen and (max-width: 480px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 @media only screen and (max-width: 780px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 #primary, #secondary {
     margin-top:0px !important;
@@ -187,20 +189,20 @@ h3{
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item a {
     line-height: 40px !important;
-    
-    
+
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .mega-menu-row .menu-item a:hover {
-   
+
    background-color: none !important;
-    
+
 }
 
 
 .site-header-main #primary-navigation #menu-main-menu .sub-menu .menu-item a:hover {
    color:#007d9e;
-    
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item .sub-menu li a {
@@ -219,7 +221,7 @@ ul.sub-menu li a:hover{
 
 ul.sub-menu li a{
     border-bottom:1px dashed #ccc !important;
-    
+
 }
 
 .view-all-specialities-button {
@@ -265,7 +267,7 @@ ul.mega-menu-row{
     width: 370px;
 }
 .box .under_box {
-   
+
     width: auto;
 }
 
@@ -321,28 +323,28 @@ ul.sub-menu li a{
 }
 
 .mega-menu .mega-menu-row #menu-item-7337 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7337 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7332 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7332 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7358 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7358 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7784 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7784 a:before{
    left: 30px !important;
@@ -375,7 +377,7 @@ table tbody tr td{
 }
 
 .btn3 a{
-	
+
 	color:#fff;
 }
 
@@ -398,7 +400,7 @@ ul.mega-menu-row ul.sub-menu.sub-menu-has-icons li a::before{
 .wpb_accordion_header {
     background: #1283a4 !important;
     }
-    
+
 .search{
     padding-left:147px !important;
 }
@@ -457,11 +459,11 @@ ul.imd-contact-info li{
     background-color: #fff !important;
 }</style>
 
-<script type='text/javascript' src='http://www.apollodhaka.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script> 
+<script type='text/javascript' src='http://www.apollodhaka.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/plugins/wordpress-plugin-random-post-slider/js/jquery.cycle.all.latest.js?ver=7d377b3a13648524ee4545489f630838'></script>
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/plugins/magic-liquidizer-responsive-table/idjs/ml.responsive.table.min.js?ver=2.0.0'></script>
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.3'></script>
-<script type='text/javascript' src='http://www.apollodhaka.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.3'></script> 
+<script type='text/javascript' src='http://www.apollodhaka.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter your Tab Slide Pro API Key\",\"id\":\"\",\"name\":\"\",\"animation_speed\":\"1\",\"animation_closing_speed\":\"0.2\",\"background\":\"#007d9e\",\"borders\":\"1\",\"border_size\":\"3\",\"credentials\":\"all\",\"disabled_pages\":\"wp-login.php, wp-register.php\",\"device\":\"all\",\"enable_open_timer\":\"0\",\"enable_timer\":\"1\",\"exclude_list\":\"\",\"font_family\":\"inherit\",\"font_size\":\"14px\",\"font_color\":\"#fff\",\"iframe_url\":\"http:\\\/\\\/www.google.com\",\"hook\":\"the_content\",\"hook_custom\":\"tab_slide_append_content\",\"include_list\":\"\",\"list_pick\":\"all\",\"opacity\":\"100\",\"open_width\":\"360\",\"open_height\":\"470\",\"open_top\":\"15\",\"picture_url\":\"wp-content\\\/plugins\\\/tab-slide\\\/assets\\\/images\\\/TabSlideLogo.png\",\"post_id\":\"2\",\"scroll_percentage_start\":\"90\",\"scroll_percentage_end\":\"100\",\"show_on_load\":\"0\",\"tab_color\":\"#FFF\",\"tab_font_size\":\"14px\",\"tab_height\":\"284\",\"tab_image\":\"http:\\\/\\\/www.apollodhaka.com\\\/wp-content\\\/uploads\\\/2017\\\/12\\\/Ask-Apollo-Hospitals-Dhaka.jpg\",\"tab_margin_open\":\"\",\"tab_margin_close\":\"10\",\"tab_slide_position\":\"right\",\"tab_title_open\":\"GET AN EXPERT OPINION\",\"tab_title_close\":\"\\u00d7\",\"tab_top\":\"38\",\"tab_type\":\"image\",\"tab_width\":\"29\",\"template_pick\":\"Widget\",\"timer\":\"2\",\"video_url\":\"http:\\\/\\\/www.youtube.com\\\/v\\\/9yl_XPkcTl4\",\"window_unit\":\"px\",\"window_url\":\"\\\/templates\\\/Widget.php\",\"cssonly\":\"0\",\"css\":\"\\\/************\\r\\n * Slide css\\r\\n *\\\/\\r\\n#tab_slide {\\r\\n\\tcolor:  #000;\\r\\n\\tfont-family: inherit;\\r\\n\\tfont-size: 14px;\\r\\n\\ttop: 40%;\\r\\n\\tposition:fixed;\\r\\n\\tz-index: 2147483647;\\r\\n}\\r\\n\\r\\n.tab_slide_corners_left {\\r\\n\\tborder-top-left-radius: 10px;\\r\\n\\tborder-bottom-left-radius: 10px;\\r\\n}\\r\\n.tab_slide_corners_right {\\r\\n\\tborder-top-right-radius: 10px;\\r\\n\\tborder-bottom-right-radius: 10px;\\r\\n}\\r\\n#tab_slide_include {\\r\\n\\tpadding: 30px 20px 20px 20px;\\t\\r\\n}\\r\\n#tab_slide_background {\\r\\n\\tbackground: #fff;\\r\\n\\r\\n        \\tbox-shadow: 1px 1px 2px #000;\\r\\n\\r\\n\\theight:100%;\\r\\n\\topacity: 1;\\r\\n\\tposition:absolute; \\r\\n\\ttop: 0;\\r\\n\\twidth:100%;\\r\\n\\tz-index:-1;\\t\\r\\n}\\r\\n\\\/**********************\\r\\n * Custom toggle class\\r\\n *\\\/\\r\\n.make_it_slide { \\r\\n\\t\\\/* custom class you can use to toggle the slide *\\\/\\r\\n}\\r\\n\\\/******************\\r\\n * Default tab css\\r\\n *\\\/\\r\\n#tab_toggle {\\r\\n}\\r\\n#tab_toggle:hover {\\r\\n\\tcursor: pointer;\\r\\n}\\r\\n#tab_toggle_bg:hover {\\r\\n\\tcursor: pointer;\\r\\n}\\r\\n\\\/*****************\\r\\n * Text based tab\\r\\n *\\\/\\r\\n.tab_text_bg {\\r\\n\\tbackground-color:#FFF;\\r\\n\\theight: 24px;\\r\\n\\toverflow: hidden;\\r\\n\\tposition: absolute;\\r\\n\\ttop: 45%;\\r\\n\\twidth: 24px;\\r\\n}\\r\\n.tab_text_bg:hover {\\r\\n  box-shadow:-1px 2px 2px #000000;\\r\\n}\\r\\n#tab_title_wrap {\\r\\n\\tbackground-color: #FFF;\\r\\n\\tcolor: #000;\\r\\n\\tdisplay:block;\\r\\n\\tfont-family: inherit;\\r\\n\\tfont-size: 14px;\\r\\n\\tfont-weight:bold;\\r\\n\\tletter-spacing: 1px;\\r\\n\\tmargin-left: 1px;\\r\\n\\toverflow: visible;\\r\\n\\tposition: relative;\\r\\n\\t-webkit-transform: rotate(90deg);  \\\/* Saf3.1+, Chrome *\\\/\\r\\n\\t    -moz-transform: rotate(90deg);  \\\/* FF3.5+ *\\\/\\r\\n\\t       -o-transform: rotate(90deg);  \\\/* Opera 10.5 *\\\/\\r\\n\\t         zoom: 1;\\r\\n}\\r\\n\\\/****************************************\\r\\n * Adjust the text offset for open\\\/close\\r\\n *\\\/\\r\\n.open_letter_reset {\\r\\n\\tmargin-top: 10px;\\r\\n\\topacity: 1;\\r\\n}\\r\\n.close_letter_reset {\\r\\n\\tmargin-top: 10px;\\r\\n}\\r\\n.tab_text_left {\\r\\n\\tborder-top-left-radius: 4px;\\r\\n\\tborder-bottom-left-radius: 4px;\\r\\n        \\tbox-shadow: -1px 1px 1px #000;\\r\\n\\tleft: -24px;\\r\\n}\\r\\n.tab_text_right {\\r\\n\\tborder-top-right-radius: 4px;\\r\\n\\tborder-bottom-right-radius: 4px;\\r\\n\\t        \\tbox-shadow: 1px 1px 1px #000;\\r\\n\\tright: -24px;\\r\\n}\\r\\n\\\/* IE Offsets *\\\/\\r\\n.newline {\\r\\n\\tdisplay: block;\\r\\n\\tline-height: 0.7em; \\r\\n\\tmargin-left: 3px;\\r\\n\\tmargin-bottom: 1px;\\r\\n}\\r\\n\\\/******************\\r\\n * Image based tab\\r\\n *\\\/\\r\\n.closed_action {\\r\\n\\tbackground-image: url('assets\\\/images\\\/close.gif') !important;\\r\\n\\tbackground-size: 12px 12px;\\r\\n\\tbackground-repeat: no-repeat;\\r\\n\\theight: 12px;\\r\\n\\tmargin-top: 7px;\\r\\n\\tposition: static;\\r\\n\\twidth: 12px;\\r\\n}\\r\\n .open_action {\\r\\n\\tbackground: url('assets\\\/images\\\/plus-light.png');\\r\\n\\tbackground-repeat: no-repeat;\\r\\n\\theight: 24px;\\r\\n\\tposition: fixed;\\r\\n\\ttop:45%!important;\\r\\n\\twidth:24px;\\r\\n}\\r\\n.reset_right  {\\r\\n\\tright: 0;\\r\\n}\\r\\n.reset_left  {\\r\\n\\tleft: 0;\\r\\n}\\r\\n.float_left  {\\r\\n\\tfloat: left;\\r\\n\\tmargin-left: 7px;\\r\\n}\\r\\n.float_right  {\\r\\n\\tfloat: right;\\r\\n\\tmargin-right: 7px;\\r\\n}\",\"site_url\":\"http:\\\/\\\/www.apollodhaka.com\"}"};
@@ -475,7 +477,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/themes/imedica/vc_templates/js/jquery.bxslider.min.js?ver=7d377b3a13648524ee4545489f630838'></script>
 <link rel='https://api.w.org/' href='http://www.apollodhaka.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.apollodhaka.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" />
 
 <link rel='shortlink' href='http://www.apollodhaka.com/?p=7315' />
 <link rel="alternate" type="application/json+oembed" href="http://www.apollodhaka.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.apollodhaka.com%2Fnephrology%2F" />
@@ -484,27 +486,27 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 			jQuery(document).ready(function() {
 				// CUSTOM AJAX CONTENT LOADING FUNCTION
 				var ajaxRevslider = function(obj) {
-				
+
 					// obj.type : Post Type
 					// obj.id : ID of Content to Load
 					// obj.aspectratio : The Aspect Ratio of the Container / Media
 					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
+
 					var content = "<h2>THIS IS SOME TITLE</h2><br/>";
 
 					content += "Type:"+obj.type+"</br>";
-					content += "ID:"+obj.id+"</br>";        
-					content += "Aspect Ratio:"+obj.aspectratio+"</br>";  
-					
+					content += "ID:"+obj.id+"</br>";
+					content += "Aspect Ratio:"+obj.aspectratio+"</br>";
+
 					data = {};
-					
+
 					data.action = 'revslider_ajax_call_front';
 					data.client_action = 'get_slider_html';
 					data.token = '5a31fa978f';
 					data.type = obj.type;
 					data.id = obj.id;
 					data.aspectratio = obj.aspectratio;
-					
+
 					// SYNC AJAX REQUEST
 					jQuery.ajax({
 						type:"post",
@@ -514,17 +516,17 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 						async:false,
 						success: function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
-								content = ret.data;								
+								content = ret.data;
 						},
 						error: function(e) {
 							console.log(e);
 						}
 					});
-					
+
 					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
+					 return content;
 				};
-				
+
 				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
 				var ajaxRemoveRevslider = function(obj) {
 					return jQuery(obj.selector+" .rev_slider").revkill();
@@ -535,7 +537,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 					if (jQuery.fn.tpessential != undefined) {
 						clearInterval(extendessential);
 						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined')
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
 							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
 							// func: the Function Name which is Called once the Item with the Post Type has been clicked
 							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
@@ -544,7 +546,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 				},30);
 			});
 		</script>
-		
+
 <!-- Google Webmaster Tools plugin for WordPress -->
 <meta name="google-site-verification" content="rSOccPBeQKfvFpughHvWe00DC4YMxMg8PfGSbuP6Gi4" />
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
@@ -559,21 +561,21 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 							st += "</style>";
 						jQuery("head").append(st);
 					});
-				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>   
+				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
 <body class="singular page page-id-7315 page-template-default group-blog imedica_appear_animation wpb-js-composer js-comp-ver-4.11.2 vc_responsive">
 <script type="text/javascript" src="http://malsup.github.com/chili-1.7.pack.js"></script>
 <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
 <script type="text/javascript">
-jQuery(function($) {    
-$('#menu').cycle({ 
-    fx:     'scrollHorz', 
-    speed:  'fast', 
-    timeout: 0, 
-    next:   '#next2', 
-    prev:   '#prev2' 
-});   
-}); 
+jQuery(function($) {
+$('#menu').cycle({
+    fx:     'scrollHorz',
+    speed:  'fast',
+    timeout: 0,
+    next:   '#next2',
+    prev:   '#prev2'
+});
+});
 </script>
 
 
@@ -594,13 +596,13 @@ $('#menu').cycle({
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
- 
+
   gtag('config', 'UA-110954706-1');
 </script><div id="page" class="container-box imd-full-layout" >
 		<!-- Fixed navbar -->
 		<?php /*
 	<header class="site-header-main">
-		
+
 
 
 
@@ -657,12 +659,12 @@ $('#menu').cycle({
 						<li><a href="http://www.apollodhaka.com/contact-us/" style="color:#fff;">Contact Us</a></li>
 						<li><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/web-applo.png">&nbsp;<a href="https://mail.apollodhaka.com/" target="_blank" style="color:#fff;">Webmail</a></li>
 						<li><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Make-a-Payment-Graphic_white.png" width="22px" height="22px">&nbsp;<a href="https://epay.apollodhaka.com/" target="_blank" style="color:#fff;">Online Payment & Appointment </a></li>
-						
-	
-												
+
+
+
 					</ul>
 				</div>
-				
+
         				<div
 					class="pull-right col-md-5 col-sm-5 col-xs-5 imd-top-social text-right">
 					<!-- button toggle top sozial -->
@@ -682,7 +684,7 @@ $('#menu').cycle({
 												</ul>
 				</div>
 				<!-- .imd-top-social -->
-				
+
       </div>
 
     </div>
@@ -704,7 +706,7 @@ $('#menu').cycle({
 
           <h1 class="site-title">
 
-            
+
               <a class="site-title site-logo-img" href="http://www.apollodhaka.com/"
 
                  title="Apollo Hospitals Dhaka" rel="home"><img
@@ -713,14 +715,14 @@ $('#menu').cycle({
 
                   alt="Apollo Hospitals Dhaka"/></a>
 
-            
+
           </h1>
 
         </div>
 
         <div class="imd-mobile-menu-buttos col-sm-8 col-xs-8">
 
-          
+
           <!-- social button -->
 
           <div class="imd-button-wrap">
@@ -749,12 +751,12 @@ $('#menu').cycle({
 
         <!-- top mobile social menu -->
 
-        
+
         <div class="row imd-mobile-social-menu">
 
           <ul class="imd-social-menu">
 
-            
+
               <li class="imd-phno">
 
                 <div class="imd-social-icon-wrap"><i class="fa fa-phone"></i></div>
@@ -767,36 +769,36 @@ $('#menu').cycle({
 <li><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Make-a-Payment-Graphic_white.png" width="22px" height="22px">&nbsp;<a href="https://epay.apollodhaka.com/" target="_blank">Online Payment & Appointment</a></li>
 
 
-            
-            
+
+
               <li class="imd-social-mobile">
 
                 <div class="imd-social-icon-wrap"><i class="fa fa-globe"></i></div>
 
                 <ul class="top-social-link-mobile">
 
-                  
+
                     <li><a href="https://www.facebook.com/apollodhaka" class="top-social-icon"
 
                            target="_blank"><i class="fa fa-facebook"></i></a></li>
 
-                  
+
                     <li><a href="https://twitter.com/apollodhaka" class="top-social-icon"
 
                            target="_blank"><i
 
                           class="fa fa-twitter"></i></a></li>
 
-                  
+
                     <li><a href="https://www.linkedin.com/company/1414250/" class="top-social-icon"
 
                            target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-                  
+
                 </ul>
 
-              </li> 
-            
+              </li>
+
             <li class="search">
 
               <div class="imd-social-icon-wrap"><i class="fa fa-search"></i></div>
@@ -814,11 +816,11 @@ $('#menu').cycle({
 
         </div>
 
-        <!-- top menu mobile --> 
+        <!-- top menu mobile -->
 
         <div class="row mobile-top-menu">
 
-          
+
   <nav role="navigation" class="site-navigation primary-navigation col-md-10 col-lg-10 col-sm-10" id="primary-navigation">
 
                         <div class="menu-main-menu-container"><ul class="nav-menu" id="menu-main-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-7269" id="menu-item-7269"><a href="http://www.apollodhaka.com/" style="line-height: 120px;">Home</a></li>
@@ -847,7 +849,7 @@ $('#menu').cycle({
     <!--  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7605" id="menu-item-7605"><a href="http://www.apollodhaka.com/apollo-hospitals-specialities/">View All Specialities</a></li> -->
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/cardiology/">Cardiology</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/cardiothoracic-vascular-surgery/">Cardiothoracic &amp; Vascular Surgery</a></li>
-        
+
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/child-development-centre/">Child Development Centre</a></li>
     </ul>
 </li>
@@ -893,7 +895,7 @@ $('#menu').cycle({
 <ul class="sub-menu mega-menu-row">
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-menu-col menu-item-has-icon menu-item-9594" id="menu-item-9594"> <ul class="sub-menu sub-menu-has-icons">
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-96103" id="menu-item-96103"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/admission-payment-guide/">Admission &amp; Payment Guide</a></li>
-   
+
     <!--   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9603" id="menu-item-9603"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/apollo-health-club/">Apollo Health Club</a></li> -->
        <!--  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7605" id="menu-item-7605"><a href="http://www.apollodhaka.com/apollo-hospitals-specialities-2/">View All Specialities</a></li> -->
        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/birth-certificate/">Birth Certificate</a></li>
@@ -901,7 +903,7 @@ $('#menu').cycle({
        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/blood-bank/">Blood Bank</a></li>
 
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9595" id="menu-item-9595"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/community-health/">Community Health</a></li>
-         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10380" id="menu-item-10380"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/corporate-patients/">Corporate Patients</a></li>       
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10380" id="menu-item-10380"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/corporate-patients/">Corporate Patients</a></li>
         </ul>
 </li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-menu-col menu-item-has-icon menu-item-7336" id="menu-item-7336"><ul class="sub-menu sub-menu-has-icons">
@@ -910,14 +912,14 @@ $('#menu').cycle({
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9599" id="menu-item-9599"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/departmentservice-locations/">Department/Service Locations</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7361" id="menu-item-7361"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/discharge-guide/">Discharge Guide</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7792" id="menu-item-7792"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/faqs/">FAQs</a></li>
-        
+
     </ul>
 </li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-menu-col menu-item-has-icon menu-item-9602" id="menu-item-9602">
     <ul class="sub-menu sub-menu-has-icons">
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9601" id="menu-item-9601"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/hospital-amenities/">Hospital Amenities</a></li>
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-71598" id="menu-item-71598"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/hospital-location-map/">Hospital Location Map</a></li>
-    
+
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-10109" id="menu-item-10109"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/in-patient-facilities/">In-patient Facilities</a></li>
 
 
@@ -926,21 +928,21 @@ $('#menu').cycle({
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9605" id="menu-item-9605"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/make-appointment/">Make an Appointment</a></li>
 
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9605" id="menu-item-9605"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/master-health-check-mhc/">Master Health Check (MHC)</a></li>
-   
+
     </ul>
 </li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-menu-col menu-item-has-icon menu-item-7362" id="menu-item-7362"><ul class="sub-menu sub-menu-has-icons">
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7545" id="menu-item-7545"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/medical-report/">Medical Report</a></li>   
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7545" id="menu-item-7545"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/medical-report/">Medical Report</a></li>
 
       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10456" id="menu-item-10456"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/brochures-leaflets/OPD%20Guidebook.pdf">Out-Patient Guidebook</a></li>
 
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9978" id="menu-item-9978"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/patient-registration-uhid/">Patient Registration &amp; UHID</a></li>
 
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9998" id="menu-item-9998"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/patient-rights-responsibilities/">Patient Rights &amp; Responsibilities</a></li>
-    
+
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7812" id="menu-item-7812"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/patient-testimonies">Patient Testimonies</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9606" id="menu-item-9606"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/referral-and-international-patients/">Referral and International Patients</a></li>
-       
+
     </ul>
 </li>
 
@@ -949,14 +951,14 @@ $('#menu').cycle({
  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-menu-col menu-item-has-icon menu-item-7362" id="menu-item-7362">
 <ul class="sub-menu sub-menu-has-icons">
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9607" id="menu-item-9607"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/telemeeting/">Telemeeting</a></li>
-    
+
   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9608" id="menu-item-9608"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/tests-procedures-surgeries/">Tests, Procedures &amp; Surgeries</a></li>
   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-92608" id="menu-item-92608"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/visiting-hours-rules/">Visiting Hours &amp; Rules</a></li>
-    
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-92608" id="menu-item-92608"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/vaccination/">vaccination</a></li> 
+
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-92608" id="menu-item-92608"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/vaccination/">vaccination</a></li>
    <!--  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10384" id="menu-item-10384"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/visiting-consultant/">Visiting Consultant</a></li> -->
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-9606" id="menu-item-9606"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/your-enquiryfeedback/">Your Enquiry/Feedback</a></li>
-         
+
    </ul>
 </li>
 
@@ -976,9 +978,9 @@ $('#menu').cycle({
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10426" id="menu-item-10426"><a href="</a></li>
      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10396" id="menu-item-10396"><a class="fa fa-angle-right" href="</a></li>
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-10414" id="menu-item-10414"><a class="fa fa-angle-right" href="</a></li>
-     
+
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10376" id="menu-item-10376"><a class="fa fa-angle-right" href="</a></li>
-     
+
    </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7811" id="menu-item-7811"><a class="fa fa-angle-right" href="</a>
@@ -987,10 +989,10 @@ $('#menu').cycle({
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10388" id="menu-item-10388"><a class="fa fa-angle-right" href="</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10374" id="menu-item-10374"><a class="fa fa-angle-right" href="</a></li>
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10409" id="menu-item-10409"><a class="fa fa-angle-right" href="</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10447" id="menu-item-10447"><a class="fa fa-angle-right" href="</a></li> 
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10447" id="menu-item-10447"><a class="fa fa-angle-right" href="</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-7809" id="menu-item-7809"><a class="fa fa-angle-right" href="</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-10392" id="menu-item-10392"><a class="fa fa-angle-right" href="h</a></li>
-    
+
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10375" id="menu-item-10375"><a class="fa fa-angle-right" href="</a>
@@ -999,9 +1001,9 @@ $('#menu').cycle({
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10448" id="menu-item-10448"><a class="fa fa-angle-right" href="</a></li>
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-icon menu-item-10083" id="menu-item-10083"><a class="fa fa-angle-right" href="</a></li>
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10427" id="menu-item-10427"><a href="</a></li>
-     
-    
-    
+
+
+
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-icon menu-item-10401" id="menu-item-10401"><a class="fa fa-angle-right" href="</a>
@@ -1028,7 +1030,7 @@ $('#menu').cycle({
 <ul class="sub-menu">
   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10468" id="menu-item-10468"><a class="fa fa-angle-right" href="http://www.apollodhakanews.com/">Apollo Dhaka News <img src="http://www.apollodhaka.com/wp-content/uploads/2015/10/blinking_new.gif"></a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10468" id="menu-item-10468"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/upcoming-events/">Upcoming Events</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10468" id="menu-item-10468"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/news-archive/">News Archive</a></li>       
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10468" id="menu-item-10468"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/news-archive/">News Archive</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10469" id="menu-item-10469"><a class="fa fa-angle-right" href="http://www.facebook.com/apollodhaka" target="_blank"><img src="http://www.apollodhaka.com/wp-content/uploads/2015/10/face-.jpg">Facebook</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10470" id="menu-item-10470"><a class="fa fa-angle-right" href="http://www.twitter.com/apollodhaka" target="_blank"><img src="http://www.apollodhaka.com/wp-content/uploads/2015/10/twte-.jpg">Twitter</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10471" id="menu-item-10471"><a class="fa fa-angle-right" href="https://www.youtube.com/channel/UCOfKBZl7W6plD3oh8QTyuKw/videos" target="_blank"><img src="http://www.apollodhaka.com/wp-content/uploads/2015/10/youtube-.jpg">Youtube</a></li>
@@ -1042,7 +1044,7 @@ $('#menu').cycle({
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10468" id="menu-item-10468"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/patient-education/">Patient Education <img src="http://www.apollodhaka.com/wp-content/uploads/2015/10/blinking_new.gif"/></a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10469" id="menu-item-10469"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/health-alert">Health Alert</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10470" id="menu-item-10470"><a class="fa fa-angle-right" href="http://www.apollodhaka.com/our-technology/">Our Technology</a></li>
-    
+
 </ul>
 </li>
 
@@ -1088,8 +1090,8 @@ $('#menu').cycle({
 
 
 
-    
-                    
+
+
 
 <div class="">
 
@@ -1097,7 +1099,7 @@ $('#menu').cycle({
 
   <div class="imedica-row">
 
-    
+
 
 
 
@@ -1105,42 +1107,42 @@ $('#menu').cycle({
 
   <div class="container imedica-container">
 
-    
 
-      
-    
+
+
+
 
 
       <div id="secondary" class="widget-area col-xs-12 col-sm-5 col-md-4 col-lg-3 left"
      role="complementary" style="">
 	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 		<aside id="text-19" class="widget widget_text">
-			<div 			
+			<div
 				<?php require_once('../inc/doc_map.php') ?>
 			</div>
 		</aside><aside id="search-2" class="widget widget_search"><form class="search" action="http://www.apollodhaka.com/" method="get">
-	
-</form></aside>	</div>
-  
-    
-			
-                
-                
-                
 
-            
+</form></aside>	</div>
+
+
+
+
+
+
+
+
                     <!-- #primary-sidebar -->
 </div><!-- #secondary -->
-           
+
 
             <div id="primary" class="site-content col-xs-9 col-sm-9 col-md-9 col-lg-9 left">
 
 
 
-    
-        
 
-        
+
+
+
 
 
 <!--    <div id="primary" class="site-content "style="">-->
@@ -1151,12 +1153,12 @@ $('#menu').cycle({
 
       <div id="content" role="main">
 
-            
-
-              
 
 
-        
+
+
+
+
 
 
           <article id="post-7315" class="post-7315 page type-page status-publish hentry">
@@ -1181,7 +1183,7 @@ $('#menu').cycle({
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_right">
 	<div class="wpb_wrapper" style="width:100%;">
-		
+
 		<div class="vc_single_image-wrapper   vc_box_border_grey"><img  title="" width="192" height="147" src="http://www.apollodhaka.com/wp-content/uploads/2015/04/nephrology.jpg" class="vc_single_image-img attachment-full"  alt="nephrology Nephrology"  /></div>
 	</div>
 </div>
@@ -1305,16 +1307,16 @@ Consultant &#8211; Nephrology<br />
 
 
           <div id="comments" class="comments-area">
-	
+
 	<!-- comments row -->
 </div><!-- #comments .comments-area -->
 
 
 
-        
-                
 
-                
+
+
+
 
 
       </div>
@@ -1333,7 +1335,7 @@ Consultant &#8211; Nephrology<br />
 
 
 
-    
+
 
 
   </div>
@@ -1372,11 +1374,11 @@ Consultant &#8211; Nephrology<br />
 }(document, 'script', 'facebook-jssdk'));</script><script>jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-accident-and-emergency").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-adulthematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-apollo-cancer-care-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-blood-bank").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracivascularsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracic-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-counselling").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dentalmaxillofacial").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dermaandvener").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-diagradiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dialysis").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-endocrinology-diabetology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ent").bxSlider({mode:"horizontal",speed:16000,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:true,tickerHover:true,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:false,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-entcocochlearimplant").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-fertility-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-gastroenterology-hepatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-genlaparoscopicsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-haematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:2,maxSlides:4,moveSlides:1,slideWidth:400,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-internal-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kidney-transplant-program").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kneecentre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-labmedicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-lithotripsy").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-medical-oncology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neonatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nephrology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurosurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nuclear-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-obstetrics-gynaecology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ophthalmology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-orthopaedics-2").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-surgery-paediatric-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatrics").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-physicalmedicinerehab").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-plasticreconssurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-psychiatry").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-respiratory-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-rheumatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});});</script>
 <script type='text/javascript'>
 	//<![CDATA[
-    jQuery(document).ready(function($) { 
+    jQuery(document).ready(function($) {
     	$('html').MagicLiquidizerTable({ whichelement: 'table', breakpoint: '780', table: '1' })
     })
 	//]]>
-</script> 	
+</script>
 
 		<script id="imedica-masonry-script" type="text/javascript">
 			// Apply Masonry Effect To Blog
@@ -1455,7 +1457,7 @@ var imd_ajax = {"ajax_url":"http:\/\/www.apollodhaka.com\/wp-admin\/admin-ajax.p
 			</div>
 		</div>
 	</div>
-</div> 
+</div>
 
 <!-- //Footer -->
 
@@ -1503,4 +1505,3 @@ var imd_ajax = {"ajax_url":"http:\/\/www.apollodhaka.com\/wp-admin\/admin-ajax.p
 	<?php require_once('../inc/doc_footer.php') ?>
 </DIV>
 </body></html>
-
