@@ -79,7 +79,7 @@ img.emoji {
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 .tp-caption a{color:#ff7302;text-shadow:none;opacity:0.4;filter:alpha(opacity=40)-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
 </style>
-<link rel='stylesheet' id='tab_slide_StyleSheet-css'  href='http://www.apollodhaka.com/wp-content/plugins/tab-slide/ts.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
+<link rel='stylesheet' id='tab_slide_StyleSheet-css'  href='../css/tab_slid_doc.css' type='text/css' media='all' />
 <link rel='stylesheet' id='js_composer_front-css'  href='http://www.apollodhaka.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.11.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ultimate-style-min-css'  href='http://www.apollodhaka.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.9.4' type='text/css' media='all' />
 <link rel='stylesheet' id='bsf-Defaults-css'  href='http://www.apollodhaka.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
@@ -164,16 +164,16 @@ ul.nav-menu li{
 }
 
 @media only screen and (max-width: 480px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 @media only screen and (max-width: 780px) {
-	#menu{ 
+	#menu{
 	    width:100%;
 	}
-	
+
 }
 #primary, #secondary {
     margin-top:0px !important;
@@ -185,20 +185,20 @@ h3{
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item a {
     line-height: 40px !important;
-    
-    
+
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .mega-menu-row .menu-item a:hover {
-   
+
    background-color: none !important;
-    
+
 }
 
 
 .site-header-main #primary-navigation #menu-main-menu .sub-menu .menu-item a:hover {
    color:#007d9e;
-    
+
 }
 
 .site-header-main #primary-navigation #menu-main-menu .menu-item .sub-menu li a {
@@ -217,7 +217,7 @@ ul.sub-menu li a:hover{
 
 ul.sub-menu li a{
     border-bottom:1px dashed #ccc !important;
-    
+
 }
 
 .view-all-specialities-button {
@@ -263,7 +263,7 @@ ul.mega-menu-row{
     width: 370px;
 }
 .box .under_box {
-   
+
     width: auto;
 }
 
@@ -319,28 +319,28 @@ ul.sub-menu li a{
 }
 
 .mega-menu .mega-menu-row #menu-item-7337 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7337 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7332 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7332 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7358 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7358 a:before{
    left: 30px !important;
 }
 
 .mega-menu .mega-menu-row #menu-item-7784 a{
-   padding-left: 50px; 
+   padding-left: 50px;
 }
 .mega-menu .mega-menu-row #menu-item-7784 a:before{
    left: 30px !important;
@@ -373,7 +373,7 @@ table tbody tr td{
 }
 
 .btn3 a{
-	
+
 	color:#fff;
 }
 
@@ -396,7 +396,7 @@ ul.mega-menu-row ul.sub-menu.sub-menu-has-icons li a::before{
 .wpb_accordion_header {
     background: #1283a4 !important;
     }
-    
+
 .search{
     padding-left:147px !important;
 }
@@ -472,7 +472,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-content/themes/imedica/vc_templates/js/jquery.bxslider.min.js?ver=7d377b3a13648524ee4545489f630838'></script>
 <link rel='https://api.w.org/' href='http://www.apollodhaka.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.apollodhaka.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.apollodhaka.com/wp-includes/wlwmanifest.xml" />
 
 <link rel='shortlink' href='http://www.apollodhaka.com/?p=8285' />
 <link rel="alternate" type="application/json+oembed" href="http://www.apollodhaka.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.apollodhaka.com%2Fdental-maxillofacial-surgery%2F" />
@@ -481,27 +481,27 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 			jQuery(document).ready(function() {
 				// CUSTOM AJAX CONTENT LOADING FUNCTION
 				var ajaxRevslider = function(obj) {
-				
+
 					// obj.type : Post Type
 					// obj.id : ID of Content to Load
 					// obj.aspectratio : The Aspect Ratio of the Container / Media
 					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
+
 					var content = "<h2>THIS IS SOME TITLE</h2><br/>";
 
 					content += "Type:"+obj.type+"</br>";
-					content += "ID:"+obj.id+"</br>";        
-					content += "Aspect Ratio:"+obj.aspectratio+"</br>";  
-					
+					content += "ID:"+obj.id+"</br>";
+					content += "Aspect Ratio:"+obj.aspectratio+"</br>";
+
 					data = {};
-					
+
 					data.action = 'revslider_ajax_call_front';
 					data.client_action = 'get_slider_html';
 					data.token = 'e5f4c3125e';
 					data.type = obj.type;
 					data.id = obj.id;
 					data.aspectratio = obj.aspectratio;
-					
+
 					// SYNC AJAX REQUEST
 					jQuery.ajax({
 						type:"post",
@@ -511,17 +511,17 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 						async:false,
 						success: function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
-								content = ret.data;								
+								content = ret.data;
 						},
 						error: function(e) {
 							console.log(e);
 						}
 					});
-					
+
 					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
+					 return content;
 				};
-				
+
 				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
 				var ajaxRemoveRevslider = function(obj) {
 					return jQuery(obj.selector+" .rev_slider").revkill();
@@ -532,7 +532,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 					if (jQuery.fn.tpessential != undefined) {
 						clearInterval(extendessential);
 						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined')
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
 							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
 							// func: the Function Name which is Called once the Item with the Post Type has been clicked
 							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
@@ -541,7 +541,7 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 				},30);
 			});
 		</script>
-		
+
 <!-- Google Webmaster Tools plugin for WordPress -->
 <meta name="google-site-verification" content="rSOccPBeQKfvFpughHvWe00DC4YMxMg8PfGSbuP6Gi4" />
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
@@ -556,21 +556,21 @@ var j_options = {"j_options":"{\"version\":\"2.0.4\",\"pro_api_key\":\"Enter you
 							st += "</style>";
 						jQuery("head").append(st);
 					});
-				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>   
+				});</script><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
 <body class="singular page page-id-8285 page-template-default group-blog imedica_appear_animation wpb-js-composer js-comp-ver-4.11.2 vc_responsive">
 <script type="text/javascript" src="http://malsup.github.com/chili-1.7.pack.js"></script>
 <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
 <script type="text/javascript">
-jQuery(function($) {    
-$('#menu').cycle({ 
-    fx:     'scrollHorz', 
-    speed:  'fast', 
-    timeout: 0, 
-    next:   '#next2', 
-    prev:   '#prev2' 
-});   
-}); 
+jQuery(function($) {
+$('#menu').cycle({
+    fx:     'scrollHorz',
+    speed:  'fast',
+    timeout: 0,
+    next:   '#next2',
+    prev:   '#prev2'
+});
+});
 </script>
 
 
@@ -591,11 +591,11 @@ $('#menu').cycle({
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
- 
+
   gtag('config', 'UA-110954706-1');
 </script><div id="page" class="container-box imd-full-layout" >
 		<!-- Fixed navbar -->
-	
+
 	<div class="theme-showcase" role="main">
 				<div class="row breadcrumbs">
 			<div class="page-title-overlay" style=" "></div>
@@ -619,8 +619,8 @@ $('#menu').cycle({
 
 
 
-    
-                    
+
+
 
 <div class="">
 
@@ -628,7 +628,7 @@ $('#menu').cycle({
 
   <div class="imedica-row">
 
-    
+
 
 
 
@@ -636,14 +636,14 @@ $('#menu').cycle({
 
   <div class="container imedica-container">
 
-    
+
 
         <!-- -------------------------------------------------- For Top Panel ---------------------------------------------------------------------------- -->
 
-    
-  
 
-  
+
+
+
 
 
 
@@ -655,39 +655,39 @@ $('#menu').cycle({
 
 
 
-    
+
 
 
       <div id="secondary" class="widget-area col-xs-12 col-sm-5 col-md-4 col-lg-3 left"
      role="complementary" style="">
 	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 		<aside id="text-19" class="widget widget_text">
-			<div> 			
+			<div>
 				<?php require_once('../inc/doc_map.php') ?>
 			</div>
 		</aside><aside id="search-2" class="widget widget_search"><form class="search" action="http://www.apollodhaka.com/" method="get">
-	
-</form></aside>	</div>
-  
-    
-			
-                
-                
-                
 
-            
+</form></aside>	</div>
+
+
+
+
+
+
+
+
                     <!-- #primary-sidebar -->
 </div><!-- #secondary -->
-           
+
 
             <div id="primary" class="site-content col-xs-9 col-sm-9 col-md-9 col-lg-9 left">
 
 
 
-    
-        
 
-        
+
+
+
 
 
 <!--    <div id="primary" class="site-content "style="">-->
@@ -698,12 +698,12 @@ $('#menu').cycle({
 
       <div id="content" role="main">
 
-            
-
-              
 
 
-        
+
+
+
+
 
 
           <article id="post-8285" class="post-8285 page type-page status-publish hentry">
@@ -732,11 +732,11 @@ $('#menu').cycle({
 		</div>
 	</div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-	
+
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_left">
 	<div class="wpb_wrapper" style="width:100%;">
-		
+
 		<div class="vc_single_image-wrapper   vc_box_border_grey"><img  title="" width="150" height="150" src="http://www.apollodhaka.com/wp-content/uploads/2015/05/Dental_Maxillofacial_Surgery-150x150.jpg" class="vc_single_image-img attachment-thumbnail"  alt="Dental_Maxillofacial_Surgery-150x150 Dental &amp; Maxillofacial Surgery"  srcset="http://www.apollodhaka.com/wp-content/uploads/2015/05/Dental_Maxillofacial_Surgery-150x150.jpg 150w, http://www.apollodhaka.com/wp-content/uploads/2015/05/Dental_Maxillofacial_Surgery-70x70.jpg 70w, http://www.apollodhaka.com/wp-content/uploads/2015/05/Dental_Maxillofacial_Surgery-90x90.jpg 90w" sizes="(max-width: 150px) 100vw, 150px" /></div>
 	</div>
 </div>
@@ -907,13 +907,13 @@ Dental Surgeon &#8211; Orthodontics<br />
 
 
 
-          
 
 
-        
-                
 
-                
+
+
+
+
 
 
       </div>
@@ -932,7 +932,7 @@ Dental Surgeon &#8211; Orthodontics<br />
 
 
 
-    
+
 
 
   </div>
@@ -973,11 +973,11 @@ Dental Surgeon &#8211; Orthodontics<br />
 }(document, 'script', 'facebook-jssdk'));</script><script>jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-accident-and-emergency").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-adulthematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-apollo-cancer-care-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-blood-bank").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracivascularsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-cardiothoracic-anaesthesia").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-counselling").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dentalmaxillofacial").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dermaandvener").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-diagradiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-dialysis").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-endocrinology-diabetology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ent").bxSlider({mode:"horizontal",speed:16000,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:true,tickerHover:true,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:false,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-entcocochlearimplant").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-fertility-centre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-gastroenterology-hepatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-genlaparoscopicsurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-haematology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:2,maxSlides:4,moveSlides:1,slideWidth:400,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-internal-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kidney-transplant-program").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-kneecentre").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-labmedicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-lithotripsy").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-medical-oncology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neonatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nephrology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-neurosurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-nuclear-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-obstetrics-gynaecology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-ophthalmology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-orthopaedics-2").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-cardiology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-neurology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatric-surgery-paediatric-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-paediatrics").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-physicalmedicinerehab").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-plasticreconssurgery").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-psychiatry").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-respiratory-medicine").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-rheumatology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-urology").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});});</script>
 <script type='text/javascript'>
 	//<![CDATA[
-    jQuery(document).ready(function($) { 
+    jQuery(document).ready(function($) {
     	$('html').MagicLiquidizerTable({ whichelement: 'table', breakpoint: '780', table: '1' })
     })
 	//]]>
-</script> 	
+</script>
 
 		<script id="imedica-masonry-script" type="text/javascript">
 			// Apply Masonry Effect To Blog
@@ -1055,5 +1055,5 @@ var imd_ajax = {"ajax_url":"http:\/\/www.apollodhaka.com\/wp-admin\/admin-ajax.p
 			</div>
 		</div>
 	</div>
-</div> 
+</div>
 </body></html>
