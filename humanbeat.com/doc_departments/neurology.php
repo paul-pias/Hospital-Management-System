@@ -769,7 +769,7 @@ $('#menu').cycle({
 <table style="border: 0px solid;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td style="border: 0px solid; padding-top: 5px;" valign="top" width="10%"><img  title="" src="http:../wp-content/uploads/2015/05/Dr.-Khandker.jpg"  alt="Dr.-Khandker Neurology"  width="83" height="84" /></td>
+<td style="border: 0px solid; padding-top: 5px;" valign="top" width="10%"><img  title="" src="http://www.apollodhaka.com/wp-content/uploads/2015/05/Dr.-Khandker.jpg"  alt="Dr.-Khandker Neurology"  width="83" height="84" /></td>
 <td style="border: 0px solid; padding-top: 15px;" valign="top"><strong>Dr. Khandker Mahbubar Rahman</strong><br />
 MBBS, MD (Neurology)<br />
 Senior Consultant – Neurology<br />
@@ -791,7 +791,7 @@ Senior Consultant &#8211; Neurology<br />
 <h3>Team of Doctors</h3>
 <hr />
 <p>We have world class specialists from around the globe and facilitates correct diagnosis of various ailments for best and shortest road to recovery. Get a closer glimpse of our cutting-edge-technology in the gallery below.<br />
-<ul class="kiwi-logo-carousel kiwi-logo-carousel-neurology default align-center col4"><li style="height:150px;"><a target="_blank" href="http://www.apollodhaka.com/doctor/profile/?cid=178"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Untitled-54-150x150.jpg"  alt="Untitled-54-150x150 Neurology"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="http://www.apollodhaka.com/doctor/profile/?cid=277"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Dr.-Khandker-Mahbubar-Rahman-150x150.jpg"  alt="Dr.-Khandker-Mahbubar-Rahman-150x150 Neurology"   title="" ></div></a></li></ul></p>
+<ul class="kiwi-logo-carousel kiwi-logo-carousel-neurology default align-center col4"><li style="height:150px;"><a target="_blank" href="#"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Untitled-54-150x150.jpg"  alt="Untitled-54-150x150 Neurology"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="#"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Dr.-Khandker-Mahbubar-Rahman-150x150.jpg"  alt="Dr.-Khandker-Mahbubar-Rahman-150x150 Neurology"   title="" ></div></a></li></ul></p>
 <h2 class="widgettitle" style="text-align: justify; padding-top: 20px;"><a name="t_t"></a>SUCCESS STORY</h2>
 <div><strong>Stroke Patient saved by right decision at the right time</strong></div>
 <div></div>

@@ -41,8 +41,6 @@
 
     </div>
 </div>
-  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
 </div>
 </div>
 </head>

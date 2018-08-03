@@ -86,7 +86,9 @@ img.emoji {
 <link rel='stylesheet' id='bsf-imd-font-awesome-css'  href='http://www.apollodhaka.com/wp-content/uploads/smile_fonts/imd-font-awesome/imd-font-awesome.css?ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css'  href='http://www.apollodhaka.com/wp-content/themes/imedica/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='redux-google-fonts-imedica_opts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C300italic%2C400italic%2C600italic%2C700italic%2C800italic&#038;ver=7d377b3a13648524ee4545489f630838' type='text/css' media='all' />
-<style type='text/css' id='imedica-transparent-header-css'>.imedica_sticky_header .navbar-inverse.header-fixed { background: rgba(0,0,0,1);}</style><style type='text/css' id='imedica-layout-options-css'>.container,.imedica-row{ width: 1170px !important; max-width: 100% !important; }</style><style type='text/css' id='imedica-custom-css'>ul.nav-menu li {
+<style type='text/css' id='imedica-transparent-header-css'>.imedica_sticky_header .navbar-inverse.header-fixed { background: rgba(0,0,0,1);}</style>
+<style type='text/css' id='imedica-layout-options-css'>.container,.imedica-row{ width: 1170px !important; max-width: 100% !important; }</style>
+<style type='text/css' id='imedica-custom-css'>ul.nav-menu li {
    /*  margin-right: -11px !important; */
 }
 
@@ -751,7 +753,7 @@ $('#menu').cycle({
 <table style="border: 0px solid;" border="0" width="100%" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td style="border: 0px solid;" valign="top" width="10%"><img  title="" src="../wp-content/uploads/2015/05/Dr.-Kazi-Hasinur-Rahman.jpg"  alt="Dr.-Kazi-Hasinur-Rahman Dental &amp; Maxillofacial Surgery"  width="83" height="84" /></td>
+<td style="border: 0px solid;" valign="top" width="10%"><img  title="" src="http://www.apollodhaka.com/wp-content/uploads/2015/05/Dr.-Kazi-Hasinur-Rahman.jpg"  alt="Dr.-Kazi-Hasinur-Rahman Dental &amp; Maxillofacial Surgery"  width="83" height="84" /></td>
 <td style="border: 0px solid;" valign="top"><strong>Dr. Kazi Hasinur Rahman </strong><br />
 BDS, MS<br />
 Consultant &#8211; Dental Surgeon<br />
@@ -775,7 +777,7 @@ Dental Surgeon &#8211; Orthodontics<br />
 <h3>Team of Doctors</h3>
 <hr />
 <p>We have world class specialists from around the globe and facilitates correct diagnosis of various ailments for best and shortest road to recovery. Get a closer glimpse of our cutting-edge-technology in the gallery below.`<br />
-<ul class="kiwi-logo-carousel kiwi-logo-carousel-dentalmaxillofacial default align-center col4"><li style="height:150px;"><a target="_blank" href="http://www.apollodhaka.com/doctor/profile/?cid=112"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Molla1-150x150.jpg"  alt="Molla1-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="http://www.apollodhaka.com/doctor/profile/?cid=161"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/anisur2-150x150.jpg"  alt="anisur2-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="http://www.apollodhaka.com/doctor/profile/?cid=190"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Mohiuddin1-150x150.jpg"  alt="Mohiuddin1-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li></ul></p>
+<ul class="kiwi-logo-carousel kiwi-logo-carousel-dentalmaxillofacial default align-center col4"><li style="height:150px;"><a target="_blank" href="#"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Molla1-150x150.jpg"  alt="Molla1-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="#"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/anisur2-150x150.jpg"  alt="anisur2-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li><li style="height:150px;"><a target="_blank" href="#"><div class="helper" style="height:150px; width:200px;" ><img src="http://www.apollodhaka.com/wp-content/uploads/2015/07/Mohiuddin1-150x150.jpg"  alt="Mohiuddin1-150x150 Dental &amp; Maxillofacial Surgery"   title="" ></div></a></li></ul></p>
 <h2 class="widgettitle" style="text-align: justify; padding-top: 15px;"><a name="oral"></a>APOLLO ORAL HEALTH CHECK PACKAGES</h2>
 <p style="text-align: justify;"><strong>Oral Health Check &amp; Cancer Screening for Adult</strong><br />
 <strong>Price: Tk. 5,000 </strong></p>
@@ -1013,7 +1015,7 @@ Dental Surgeon &#8211; Orthodontics<br />
 				});
 							});
 		</script>
-		<script type='text/javascript' src='http://www.apollodhaka.com/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+	<script type='text/javascript' src='http://www.apollodhaka.com/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
 <script type='text/javascript' src='http://www.apollodhaka.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */

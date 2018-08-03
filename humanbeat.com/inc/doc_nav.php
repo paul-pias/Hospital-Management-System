@@ -36,13 +36,11 @@
   <div class="w3-dropdown-hover">
     <button class="w3-button w3-black">Login</button>
     <div class="w3-dropdown-content w3-bar-block w3-border">
-    <a href="doctors_login.php" class="w3-bar-item w3-button">Doctor's Login</a>
-    <a href="patient_login.php" class="w3-bar-item w3-button">Patient Login/a>
+    <a href="doctors_login.php" class="w3-bar-item w3-button">Doctor Login</a>
+    <a href="patient_login.php" class="w3-bar-item w3-button">Patient Login  </a>
 
     </div>
 </div>
-  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
 </div>
 </div>
 </head>
