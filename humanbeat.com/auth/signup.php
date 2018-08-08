@@ -41,6 +41,7 @@ $form_errors = array_merge($form_errors, check_email($_POST));
 		$password =$_POST['password'];
 
 		$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
 	try{
 		$sqlInsert ="INSERT INTO users (username,email,password,join_date) VALUES (:username, :email, :password, now())";
 
@@ -93,6 +94,7 @@ else{
 <head>
 	<!-- Meta tags -->
 	<title>HUMAN BEAT || Patient Registration</title>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -133,6 +135,7 @@ else{
 							</label>
 							<div class="form-input">
 								<input type="email" name="email" placeholder="myname@example.com" required pattern="^[a-z0-9@a-z.a-z]+">
+
 
 							</div>
 						</li>
