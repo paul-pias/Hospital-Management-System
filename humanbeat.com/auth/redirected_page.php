@@ -2,6 +2,7 @@
 include_once 'resource/session.php';
 include_once 'resource/database.php';
 include_once 'resource/utilities.php';
+echo '<pre>' . print_r($_SESSION, TRUE) . '</pre>';
 ?>
 <!--registration code starts -->
 <?php

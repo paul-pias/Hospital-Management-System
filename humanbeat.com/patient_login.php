@@ -1,7 +1,12 @@
 <?php
-include_once 'auth/resource/session.php';
+//include_once 'auth/resource/session.php';
 include_once 'auth/resource/Database.php';
 include_once 'auth/resource/utilities.php';
+require_once "FB_Login/config.php";
+$redirectURL = "http://localhost/CSE482/humanbeat.com/FB_Login/fb-callback.php";
+$permissions = ['email'];
+$loginUrl = $helper->getLoginUrl($redirectURL,$permissions);
+//echo $loginUrl;
 if(isset($_POST['loginbtn'])){
 
   //array to hold errors
@@ -77,7 +82,7 @@ if(isset($_POST['loginbtn'])){
       </div>
 
       <div class="col">
-        <a href="#" class="fb btn">
+        <a href="<?php echo $loginUrl ?>" class="fb btn">
           <i class="fa fa-facebook fa-fw"></i> Login with Facebook
          </a>
         <a href="#" class="twitter btn">
