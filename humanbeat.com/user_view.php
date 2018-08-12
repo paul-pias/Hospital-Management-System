@@ -59,6 +59,16 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
           header("location:auth/redirected_page.php");?>
          <?php else: ?>
          <p><?php if(isset($_SESSION['username'])) echo $_SESSION['username'];?> <br><a href="auth/logout.php">Logout</a></p>
+         <!--Start of Zendesk Chat Script-->
+         <script type="text/javascript">
+         window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+         d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+         _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+         $.src="https://v2.zopim.com/?5pWPe5M9slFevbCGSxEAARQWj5wL1bXc";z.t=+new Date;$.
+         type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+         </script>
+         <!--End of Zendesk Chat Script-->
+
          <?php endif ?></h4>
          <p class="w3-center"><img src="/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
