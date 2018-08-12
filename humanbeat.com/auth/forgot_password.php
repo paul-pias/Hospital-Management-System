@@ -101,8 +101,8 @@ if(isset($_POST['passwordResetBtn'])){
          </div>
 
          <input type="text" name="email" placeholder="Email" required>
-         <input type="password" name="new_password" placeholder="Password" required>
-         <input type="password" name="confirm_password" placeholder="Password" required>
+         <input type="password" name="new_password" placeholder="New Password" required>
+         <input type="password" name="confirm_password" placeholder="Confirm New Password" required>
          <input type="submit"  name="passwordResetBtn" value="Reset Password">
        </div>
 
