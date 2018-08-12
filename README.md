@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CSE482
 In this project we were asked to build a website on Hospital Management System. For that we had to use raw PHP as instructed by our faculty.
 
@@ -10,7 +9,7 @@ The main features that we considered for this website are listed below.
 > Online Payment System
 At first, we created and a mysqli databse named hospital_management. Here we created the required entities for our work.
 Advanced Registration System:
-In this context we only added registration system for patients only as doctor�s login information will automatically added by the developers. Here we considered two kinds of registration. First one is Emergency Registration and another one Normal Patient registration. In Emergency Registration we considered the situation when a third person has to fill patient information and in Normal Patient registration the patient gives all the information.
+In this context we only added registration system for patients only as doctor’s login information will automatically added by the developers. Here we considered two kinds of registration. First one is Emergency Registration and another one Normal Patient registration. In Emergency Registration we considered the situation when a third person has to fill patient information and in Normal Patient registration the patient gives all the information.
 Here we have used javascript to validate the form inputs in both cases. 
 For validating email in our database below script was used. This script will go through my patient_registration table in my database and then look through if the typed email is already exist in our database or not.
 <script type="text/javascript">
@@ -58,14 +57,14 @@ For that we need to use open a App in developers.facebook.com so that we can use
 In this project we were asked to build a website on Hospital Management System. For that we had to use raw PHP as instructed by our faculty.
 
 The main features that we considered for this website are listed below.
-	Advanced Registration System for Patients
-	Advanced Login System with federated id for both Patient & Doctors
-	Doctor Patient Online Communication
-	Online Report Submission
-	Online Payment System
+ïƒ˜	Advanced Registration System for Patients
+ïƒ˜	Advanced Login System with federated id for both Patient & Doctors
+ïƒ˜	Doctor Patient Online Communication
+ïƒ˜	Online Report Submission
+ïƒ˜	Online Payment System
 At first, we created and a mysqli databse named hospital_management. Here we created the required entities for our work.
 Advanced Registration System:
-In this context we only added registration system for patients only as doctor’s login information will automatically added by the developers. Here we considered two kinds of registration. First one is Emergency Registration and another one Normal Patient registration. In Emergency Registration we considered the situation when a third person has to fill patient information and in Normal Patient registration the patient gives all the information.
+In this context we only added registration system for patients only as doctorâ€™s login information will automatically added by the developers. Here we considered two kinds of registration. First one is Emergency Registration and another one Normal Patient registration. In Emergency Registration we considered the situation when a third person has to fill patient information and in Normal Patient registration the patient gives all the information.
 Here we have used javascript to validate the form inputs in both cases. 
 For validating email in our database below script was used. This script will go through my patient_registration table in my database and then look through if the typed email is already exist in our database or not.
 <script type="text/javascript">
@@ -107,4 +106,3 @@ Advanced Login System:
 We tried to build a login system which can integrated with any database of PHP. For that we have used PHP Data Object (PDO).  To use PDO you have to use the later versions of PHP. Because PDO needs to use the Object Oriented features of PHP so the earlier versions of PHP will not work.
 We have also added the scope of login using federated id of person (Facebook, Gmail, Twitter).
 For that we need to use open a App in developers.facebook.com so that we can use the generated api key and api secret from there. We have used the graph api version 3.1. 
->>>>>>> master
