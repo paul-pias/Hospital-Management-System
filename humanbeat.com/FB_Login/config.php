@@ -1,5 +1,7 @@
 <?php
-session_start();
+if(!session_id()) {
+    session_start();
+}
 require_once "Facebook/autoload.php";
 $FB = new\Facebook\Facebook([
   'app_id' => '1724053800952772',

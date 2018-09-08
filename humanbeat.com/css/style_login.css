@@ -145,7 +145,7 @@ input[type=submit]:hover {
 }
 
 /* Two-column layout */
-.col {
+#col {
   float: left;
   width: 50%;
   margin: auto;
@@ -160,7 +160,7 @@ input[type=submit]:hover {
   margin-top: 0px;
 }
 
-.col-2{
+#col-2{
   float: right;
   width: 50%;
   margin: auto;

@@ -2,6 +2,10 @@
 include_once 'auth/resource/session.php';
 include_once 'auth/resource/Database.php';
 include_once 'auth/resource/utilities.php';
+require_once "FB_Login/config.php";
+$redirectURL = "https://www.humanbeat.website/FB_Login/fb-callback.php";
+$permissions = ['email'];
+$loginUrl = $helper->getLoginUrl($redirectURL,$permissions);
 //echo $loginUrl;
 if(isset($_POST['loginbtn'])){
 
@@ -19,46 +23,36 @@ if(isset($_POST['loginbtn'])){
     $user = $_POST['username'];
     $password = $_POST['password'];
     //check if user exist in the Database
-    $sqlQuery = "SELECT * FROM doctors WHERE username = :username";
+    $sqlQuery = "SELECT * FROM users WHERE username = :username";
     $statement = $db->prepare($sqlQuery);
     $statement->execute(array('username' => $user));
-    $data = $statement->fetch(PDO::FETCH_ASSOC);
-    if($password == $data['password']) {
-    $_SESSION['id'] = $data['id'];
-    $_SESSION['username'] = $data['username'];
-    $_SESSION['password'] = $data['password'];
-    echo '<pre>';print_r($_SESSION);echo '</pre>';
-    header("location:doctors_profile_view.php");
-    exit;
-  }
-   /*while($row = $statement->fetch()){
+    while($row = $statement->fetch()){
       $id = $row['id'];
-      $to_be_hashed_password = $row['password'];
-      $hashed_password = password_hash($to_be_hashed_password, PASSWORD_DEFAULT);
+      $hashed_password = $row['password'];
       $username= $row['username'];
-      echo $username.PHP_EOL;
-      echo $to_be_hashed_password;
-      if(password_verify($password,$to_be_hashed_password)){
-        $_SESSION['id']=$id;
-        $_SESSION['username'] = $username;
-          header("location:user_view.php");
 
-              }
-              else{
-                $result = "<p style='padding:20px; color:red;'>Invalid Usernameor Password</p>";
-              }
-            }*/
-            }
-            else {
-              if(count($form_errors) ==1){
-                $result = "<p style='color:red;'> There was a error in the form </p>";
-              }else {
-                $result = "<p style='color:red;'> There were".count($form_errors)."error in the form </p>";
+      if(password_verify($password, $hashed_password)){
+      $_SESSION['id']=$id;
+      $_SESSION['username'] = $username;
+      header("location:user_view.php");
 
-              }
-          }
 
-            }
+    }
+    else{
+      $result = "<p style='padding:20px; color:red;'>Invalid Usernameor Password</p>";
+    }
+  }
+  }
+  else {
+    if(count($form_errors) ==1){
+      $result = "<p style='color:red;'> There was a error in the form </p>";
+    }else {
+      $result = "<p style='color:red;'> There were".count($form_errors)."error in the form </p>";
+
+    }
+}
+
+  }
 
  ?>
 

@@ -1,9 +1,9 @@
-<?php include_once('inc/doc_nav_1.php');?>
+<?php include_once('inc/doc_nav.php');?>
 <!-- doctors info -->
 	<div id="review" class="jarallax reviews agile-1">
 				<div class="test-monials" id="testimonials">
 
-					<h3 class="tittle-two">Our Specialist Doctors<span></span></h3>
+					<h3 class="tittle-two" align=center>Our Specialist Doctors<span></span></h3>
 						<div class="sreen-gallery-cursual">
 						       <div id="owl-demo" class="owl-carousel">
 					                 <div class="item-owl">
@@ -63,7 +63,7 @@
 
 <!-- Footer -->
 <DIV>
-	<?php require_once('inc/footer.php') ?>
+
 </DIV>
 <!-- //Footer -->
 
@@ -107,5 +107,6 @@
 		<!-- //for-Testimonials -->
 
 <!-- //js-scripts -->
+<?php require_once('inc/doc_footer.php') ?>
 </body>
 </html>

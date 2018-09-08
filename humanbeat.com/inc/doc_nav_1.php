@@ -22,7 +22,7 @@
    <div class="w3-dropdown-hover">
     <button class="w3-button w3-black">Departments</button>
     <div class="w3-dropdown-content w3-bar-block w3-border">
-     <a href="doc_departments/cardiology.php" class="w3-bar-item w3-button">Cardiology</a>
+     <a href="../doc_departments/cardiology.php" class="w3-bar-item w3-button">Cardiology</a>
      <a href="../doc_departments/dental.php" class="w3-bar-item w3-button">Dental</a>
      <a href="../doc_departments/internal_medicine.php" class="w3-bar-item w3-button">Internal Medicine</a>
      <a href="../doc_departments/nephrology.php" class="w3-bar-item w3-button">Nephrology</a>

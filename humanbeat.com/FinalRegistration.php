@@ -4,7 +4,7 @@ session_start();
 <html>
 
    <head>
-      <title>Sending HTML email using PHP</title>
+      <title>HUMANBEAT || Sending Email</title>
    </head>
 
    <body>

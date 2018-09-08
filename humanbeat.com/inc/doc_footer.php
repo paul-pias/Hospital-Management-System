@@ -55,14 +55,14 @@
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-				<!--<div class="right-w3l">
+				<div class="right-w3l">
 					<ul class="top-links">
 						<li class="get-w3"><a href="mail.html"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Get In Touch</a></li>
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
-				</div>-->
+				</div>
 
 		</div>
 	</div>

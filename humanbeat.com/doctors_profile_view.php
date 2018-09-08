@@ -1,6 +1,6 @@
-<?php include_once 'auth/resource/session.php';
+<?php
+    session_start();
 ?>
-
 <!DOCTYPE html>
 <html>
 <title>HUMAN BEAT</title>
@@ -56,9 +56,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         <div class="w3-container">
          <h4 class="w3-center">
         <?php if(!isset($_SESSION['username']) && !isset($_SESSION['id'])):
-          header("location:auth/redirected_page.php");?>
+          header("location:auth\doc_redirected_page.php");?>
          <?php else: ?>
-         <p><?php if(isset($_SESSION['username'])) echo $_SESSION['username'];?> <br><a href="auth/logout.php">Logout</a></p>
+         <p><?php if(($_SESSION['username'])) echo $_SESSION['username'];?> <br><a href="auth/logout.php">Logout</a></p>
          <!--Start of Zendesk Chat Script-->
          <script type="text/javascript">
          window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -158,7 +158,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-              <h6 class="w3-opacity">Social Media template</h6>
+              <h6 class="w3-opacity">Social Media template by w3.css</h6>
               <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
               <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button>
             </div>
@@ -221,38 +221,11 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         </div>
       </div>
       <br>
-      <script type="text/javascript" src="friends.js"></script>
 
       <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
-
-          <?php
-          $_SESSION['id']=1;
-          $check=$_SESSION['id'];
-          $db = new PDO('mysql:host=localhost;dbname=hospital_management','root','');
-
-          require 'friends.php';
-          $query = $db->prepare("SELECT * FROM users");
-          $query->execute();
-          if($query->rowCount()>0)
-          {
-            while ($fetch = $query->fetch(PDO::FETCH_ASSOC))
-            {
-              $id= $fetch['id'];
-              $username = $fetch['username'];
-              ?>
-              <div>
-              <h3> <?php echo $username; ?> </h3>
                 <div class="actions">
-                  <?php
-                  if($id != $_SESSION['id'])
-                  {
-                    //Display buttons for adding as friend
-                    if(friends::renderFriendShip($_SESSION['id'],$id,'isThereRequestPending')==1)
-                    {
-                      ?>
-                    <button class="request_pending" disabled> Request Pending </button>
-                    <p>Friend Request</p>
+                <p>Friend Request</p>
                     <img src="http://www.w3schools.com/w3images/avatar6.png" alt="Avatar" style="width:50%"><br>
                     <span>Jane Doe</span>
                     <div class="w3-row w3-opacity">
@@ -266,42 +239,6 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
                   </div>
                 </div>
                 <br>
-                      <?php
-
-                    }
-                    else{
-                      if(friends::renderFriendShip($_SESSION['id'],$id,'isThereRequestPending')==0)
-                      {
-                        ?>
-                        <button class="friendBtn add" data-uid="<?php echo $id; ?>" data-type='addfriend'>Add as a friend </button>
-                        <button class="request_pending hidden" disabled> Request Pending </button>
-
-                        <?php
-                      }
-                      else {
-                        ?>
-                        <button class="friendBtn unfriend" data-uid="<?php echo $id; ?>" data-type='Unfriend'>Unfriend </button>
-
-                        <button class="friendBtn add hidden" data-uid="<?php echo $id; ?>" data-type='addfriend'>Add as a friend </button>
-                        <button class="request_pending hidden" disabled> Request Pending </button>
-                        <?php
-                      }
-
-
-                    }
-
-                  }
-                  else{
-                    //Display Requests
-                  }
-                   ?>
-              </div>
-              <?php
-
-            }
-          }
-           ?>
-
 
       <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
         <p>ADS</p>
